@@ -1,0 +1,132 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Department Ticket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="form">
+            <form id="userForm">
+                <h1>IT Department Ticket</h1>
+                
+                <!-- Name -->
+                <div class="inputbox">
+                    <input type="text" id="username" required>
+                    <span>First Name</span>
+                </div>
+
+                <!-- Gender -->
+                <div class="inputbox">
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" value="Male" required> Male
+                    <input type="radio" name="gender" value="Female" required> Female
+                    <input type="radio" name="gender" value="Other" required> Other
+                </div>
+
+                <!-- Department -->
+                <div class="inputbox">
+                    <input type="text" id="department" required>
+                    <span>Department</span>
+                </div>
+
+                <!-- Issue -->
+                <div class="inputbox">
+                    <input type="text" id="issue" required>
+                    <span>Issue</span>
+                </div>
+
+                <!-- Resolved -->
+                <div class="inputbox">
+                    <input type="text" id="resolved" required>
+                    <span>Resolved</span>
+                </div>
+
+                <!-- Remarks -->
+                <div class="inputbox">
+                    <input type="text" id="remarks" required>
+                    <span>Remarks</span>
+                </div>
+
+                <!-- Email -->
+                <div class="inputbox">
+                    <input type="email" id="email" required>
+                    <span>Email</span>
+                </div>
+
+                <!-- Phone -->
+                <div class="inputbox">
+                    <input type="text" id="phone" required>
+                    <span>Phone number</span>
+                </div>
+
+                <!-- Submit button -->
+                <input type="submit" value="Submit" class="sub">
+            </form>
+        </div>
+    </div>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBuCSeOP5p8U-PjV9_iAcvQW_Bur1DpLYc",
+          authDomain: "registration-1c42d.firebaseapp.com",
+          projectId: "registration-1c42d",
+          storageBucket: "registration-1c42d.firebasestorage.app",
+          messagingSenderId: "139294685660",
+          appId: "1:139294685660:web:30d2525c57d404416bf719",
+          measurementId: "G-X1Q7TR4NLX"
+        };
+      
+
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+
+        document.getElementById("userForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            
+            const username = document.getElementById("username").value;
+            const gender = document.querySelector('input[name="gender"]:checked').value;
+            const department = document.getElementById("department").value;
+            const issue = document.getElementById("issue").value;
+            const resolved = document.getElementById("resolved").value;
+            const remarks = document.getElementById("remarks").value;
+            const email = document.getElementById("email").value;
+            const phone = document.getElementById("phone").value;
+
+            const ticketRef = ref(db, "tickets");
+
+            push(ticketRef, {
+                username,
+                gender,
+                department,
+                issue,
+                resolved,
+                remarks,
+                email,
+                phone,
+                timestamp: new Date().toISOString()
+            })
+            .then(() => {
+                alert("Ticket submitted successfully!");
+                document.getElementById("userForm").reset();
+            })
+            .catch((error) => {
+                alert("Error submitting ticket: " + error.message);
+                console.error("Firebase error:", error);
+            });
+        });
+    </script>
+</body>
+</html>
+
+

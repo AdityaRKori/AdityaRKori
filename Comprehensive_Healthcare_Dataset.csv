@@ -1,0 +1,871 @@
+Patient_ID,Gender,Department,Admission_Date,Discharge_Date,Discharge_Time,Billing_Completed_Time,Pharmacy_Clearance_Time,Nursing_Clearance_Time,Complaint,Satisfaction_Score,Urgency,Chronic_Condition,Feedback_Reason,No_Show_Reason,Follow_Up_Needed,Cost_Per_Day,Delay_Hours
+1,Other,Oncology,30-09-2024,04-10-2024,10:16,15:18,15:36,15:52,Staff Behavior,2,Emergency,None,Wait Time,Transport Issues,FALSE,14366,12
+2,Male,Pediatrics,16-10-2024,25-10-2024,12:35,14:35,14:59,18:27,None,1,Urgent,Diabetes,Communication,None,FALSE,7854,36
+3,Male,General Medicine,07-10-2024,16-10-2024,12:24,08:32,15:05,15:19,Delay in Discharge,5,Emergency,Asthma,Wait Time,Forgot,TRUE,5856,37
+4,Other,Oncology,17-09-2024,26-09-2024,15:25,10:31,10:59,12:45,Medication Error,2,Non-Urgent,Asthma,Communication,Forgot,TRUE,13298,42
+5,Male,Oncology,18-07-2024,23-07-2024,18:26,08:16,12:06,15:22,None,5,Non-Urgent,None,Communication,Health Condition,TRUE,5735,33
+6,Female,Dermatology,07-07-2024,09-07-2024,11:01,09:58,11:09,13:50,Billing Issue,5,Non-Urgent,Diabetes,Communication,Forgot,TRUE,6742,13
+7,Other,Neurology,29-02-2024,05-03-2024,13:23,10:39,15:29,16:16,Staff Behavior,2,Urgent,None,Wait Time,None,TRUE,15342,39
+8,Male,Cardiology,02-08-2024,10-08-2024,13:56,14:16,14:39,15:04,None,5,Urgent,None,Staff Behavior,Health Condition,FALSE,11309,44
+9,Male,Pediatrics,30-03-2024,06-04-2024,14:22,09:38,13:32,13:50,Billing Issue,3,Emergency,None,Cleanliness,None,TRUE,8789,45
+10,Other,Neurology,27-09-2024,30-09-2024,15:24,14:55,15:16,15:46,Staff Behavior,2,Non-Urgent,None,Cleanliness,Transport Issues,FALSE,16249,46
+11,Female,Cardiology,29-04-2024,01-05-2024,10:08,09:38,11:13,13:10,Staff Behavior,5,Urgent,Heart Disease,Cleanliness,None,TRUE,15644,10
+12,Male,Neurology,24-05-2024,30-05-2024,12:49,12:10,16:11,16:46,Billing Issue,4,Emergency,Heart Disease,Cleanliness,Transport Issues,TRUE,6010,45
+13,Female,Oncology,13-07-2024,20-07-2024,14:08,08:48,11:47,14:59,Delay in Discharge,4,Emergency,Hypertension,Staff Behavior,Forgot,TRUE,14389,17
+14,Male,Cardiology,17-02-2024,19-02-2024,15:24,16:15,16:33,17:54,Staff Behavior,4,Emergency,None,Cleanliness,None,FALSE,11560,23
+15,Other,General Medicine,08-01-2024,17-01-2024,13:11,08:41,16:49,17:15,Delay in Discharge,1,Urgent,Hypertension,Staff Behavior,Health Condition,FALSE,11633,29
+16,Male,Neurology,25-02-2024,06-03-2024,14:36,10:26,11:51,13:06,Delay in Discharge,5,Emergency,Diabetes,Wait Time,None,FALSE,15860,19
+17,Female,General Medicine,25-05-2024,28-05-2024,17:00,15:25,15:40,15:43,Billing Issue,1,Emergency,None,Cleanliness,Health Condition,TRUE,5520,42
+18,Female,Pediatrics,20-05-2024,26-05-2024,17:58,11:23,15:56,16:16,Delay in Discharge,3,Non-Urgent,Diabetes,Staff Behavior,Forgot,FALSE,9152,17
+19,Male,Dermatology,16-08-2024,20-08-2024,18:48,10:07,17:08,17:35,Delay in Discharge,5,Emergency,None,Staff Behavior,Transport Issues,FALSE,9100,30
+20,Male,Neurology,30-10-2024,09-11-2024,13:36,16:05,16:35,16:45,Delay in Discharge,4,Urgent,Asthma,Staff Behavior,Forgot,FALSE,6837,36
+21,Male,Neurology,04-03-2024,06-03-2024,17:55,13:36,15:06,15:14,None,2,Urgent,Heart Disease,Communication,Transport Issues,TRUE,9436,21
+22,Other,Pediatrics,06-03-2024,14-03-2024,12:27,08:03,11:12,16:29,Billing Issue,5,Urgent,Asthma,Facilities,Forgot,TRUE,13353,45
+23,Female,Neurology,23-09-2024,03-10-2024,12:45,13:10,17:05,17:27,Medication Error,2,Non-Urgent,Asthma,Communication,Transport Issues,TRUE,9942,32
+24,Female,Orthopedics,13-09-2024,18-09-2024,17:18,09:43,13:54,15:44,Medication Error,1,Non-Urgent,Diabetes,Staff Behavior,Forgot,FALSE,15254,19
+25,Other,Orthopedics,25-04-2024,27-04-2024,11:46,12:04,17:13,17:42,Staff Behavior,2,Emergency,Diabetes,Cleanliness,Transport Issues,FALSE,14692,5
+26,Other,Pediatrics,01-04-2024,10-04-2024,15:25,14:48,15:02,15:08,Staff Behavior,1,Non-Urgent,Diabetes,Cleanliness,Forgot,TRUE,17079,11
+27,Female,Dermatology,07-03-2024,12-03-2024,14:16,11:16,16:54,17:23,None,2,Urgent,Asthma,Communication,None,FALSE,11922,2
+28,Male,Neurology,04-01-2024,13-01-2024,15:02,12:20,16:38,16:54,None,4,Urgent,None,Staff Behavior,None,TRUE,11019,2
+29,Male,Orthopedics,30-09-2024,07-10-2024,11:06,15:30,15:42,15:59,Staff Behavior,4,Non-Urgent,Diabetes,Communication,Transport Issues,FALSE,11775,19
+30,Other,Neurology,22-02-2024,03-03-2024,15:59,10:40,12:09,18:44,Delay in Discharge,1,Emergency,Heart Disease,Wait Time,Health Condition,FALSE,19814,24
+31,Female,Pediatrics,24-04-2024,30-04-2024,13:21,11:20,17:27,17:42,None,3,Urgent,Hypertension,Cleanliness,Health Condition,FALSE,13112,18
+32,Female,Cardiology,22-04-2024,25-04-2024,10:04,12:41,13:10,13:24,Billing Issue,1,Emergency,Heart Disease,Wait Time,Health Condition,FALSE,5945,43
+33,Female,Dermatology,02-06-2024,12-06-2024,17:45,12:13,13:12,15:04,Staff Behavior,2,Non-Urgent,Diabetes,Wait Time,None,FALSE,15309,30
+34,Other,Oncology,09-03-2024,17-03-2024,10:58,10:14,10:39,14:11,Delay in Discharge,1,Non-Urgent,Asthma,Cleanliness,Forgot,TRUE,17313,32
+35,Other,General Medicine,28-07-2024,02-08-2024,16:14,15:04,17:02,17:13,Medication Error,3,Non-Urgent,Asthma,Wait Time,Transport Issues,FALSE,15873,45
+36,Female,Neurology,31-03-2024,03-04-2024,10:23,09:38,14:48,16:34,Delay in Discharge,1,Non-Urgent,Asthma,Wait Time,Health Condition,FALSE,14883,3
+37,Other,Neurology,10-01-2024,20-01-2024,16:03,10:25,16:40,16:51,Billing Issue,4,Non-Urgent,None,Staff Behavior,Transport Issues,FALSE,15603,29
+38,Other,Pediatrics,18-03-2024,27-03-2024,15:15,15:34,15:49,18:45,Staff Behavior,3,Emergency,Heart Disease,Wait Time,Forgot,TRUE,12884,9
+39,Female,Neurology,01-08-2024,04-08-2024,15:25,08:21,11:04,15:52,Staff Behavior,1,Emergency,Heart Disease,Facilities,Forgot,FALSE,11064,4
+40,Female,Orthopedics,06-09-2024,16-09-2024,14:07,10:38,16:26,16:53,None,2,Emergency,Hypertension,Facilities,Forgot,TRUE,19020,21
+41,Female,Dermatology,26-04-2024,28-04-2024,17:28,09:09,09:52,15:26,Staff Behavior,3,Emergency,Asthma,Facilities,Health Condition,FALSE,15282,3
+42,Female,Pediatrics,22-05-2024,24-05-2024,12:57,08:24,11:30,11:57,None,2,Non-Urgent,Diabetes,Cleanliness,Transport Issues,FALSE,5530,23
+43,Female,Dermatology,08-03-2024,10-03-2024,11:45,13:07,13:19,16:29,None,1,Emergency,Diabetes,Cleanliness,None,FALSE,13856,6
+44,Other,Cardiology,02-09-2024,09-09-2024,16:58,08:35,15:02,17:18,Delay in Discharge,2,Non-Urgent,Heart Disease,Cleanliness,Health Condition,TRUE,9447,9
+45,Other,Pediatrics,14-02-2024,17-02-2024,15:00,14:09,14:30,14:49,None,1,Non-Urgent,Asthma,Communication,Health Condition,FALSE,5842,6
+46,Other,Cardiology,14-10-2024,22-10-2024,14:18,16:11,16:25,16:51,Delay in Discharge,1,Emergency,None,Wait Time,Health Condition,TRUE,19591,47
+47,Other,Oncology,30-03-2024,09-04-2024,10:23,09:34,13:51,14:12,None,2,Urgent,Diabetes,Wait Time,Forgot,FALSE,17239,31
+48,Male,Orthopedics,16-10-2024,26-10-2024,17:31,08:06,12:54,17:25,Medication Error,5,Emergency,None,Cleanliness,None,TRUE,17253,22
+49,Other,Neurology,10-09-2024,12-09-2024,14:15,13:39,14:28,17:42,Billing Issue,2,Urgent,Heart Disease,Facilities,Forgot,TRUE,18208,30
+50,Male,Pediatrics,13-01-2024,20-01-2024,13:54,14:41,15:09,15:27,None,4,Non-Urgent,None,Cleanliness,None,FALSE,14811,29
+51,Male,Orthopedics,03-06-2024,06-06-2024,16:25,14:03,15:46,16:06,None,5,Urgent,None,Staff Behavior,Transport Issues,FALSE,9176,28
+52,Other,Dermatology,10-04-2024,12-04-2024,12:27,09:42,10:06,11:38,Billing Issue,2,Emergency,Hypertension,Communication,Transport Issues,TRUE,18270,21
+53,Female,Oncology,18-06-2024,20-06-2024,11:56,13:37,14:03,14:11,Billing Issue,4,Non-Urgent,Asthma,Cleanliness,Transport Issues,TRUE,18356,22
+54,Female,Orthopedics,16-07-2024,25-07-2024,10:18,11:10,16:07,16:50,Medication Error,5,Emergency,None,Staff Behavior,Transport Issues,TRUE,16218,5
+55,Female,General Medicine,14-01-2024,22-01-2024,12:42,14:35,15:52,18:08,Staff Behavior,5,Emergency,None,Cleanliness,Forgot,TRUE,19355,27
+56,Female,Pediatrics,29-06-2024,07-07-2024,14:30,08:15,09:08,18:10,Delay in Discharge,4,Emergency,Diabetes,Communication,Forgot,TRUE,9057,30
+57,Male,General Medicine,18-07-2024,22-07-2024,11:34,15:21,17:18,17:37,Medication Error,5,Non-Urgent,Asthma,Wait Time,Health Condition,TRUE,14850,25
+58,Female,Cardiology,12-08-2024,17-08-2024,15:51,10:17,16:30,16:54,Delay in Discharge,1,Urgent,Asthma,Communication,None,TRUE,14572,7
+59,Male,Neurology,04-09-2024,06-09-2024,17:21,13:51,14:10,14:27,None,2,Urgent,Heart Disease,Wait Time,Transport Issues,FALSE,9150,41
+60,Other,Orthopedics,06-08-2024,15-08-2024,16:17,09:10,09:17,17:01,Medication Error,2,Urgent,None,Cleanliness,Transport Issues,TRUE,12749,37
+61,Male,Neurology,17-07-2024,23-07-2024,11:26,09:04,14:52,15:22,None,2,Urgent,Hypertension,Facilities,Forgot,FALSE,14540,39
+62,Female,Dermatology,21-04-2024,24-04-2024,16:29,10:24,16:24,16:52,Delay in Discharge,2,Non-Urgent,Diabetes,Cleanliness,Transport Issues,FALSE,18407,15
+63,Other,Oncology,09-02-2024,15-02-2024,17:52,10:04,11:46,17:27,Delay in Discharge,3,Emergency,Heart Disease,Wait Time,Transport Issues,TRUE,13058,21
+64,Female,General Medicine,14-02-2024,24-02-2024,15:13,09:57,17:25,17:45,None,3,Urgent,Diabetes,Cleanliness,None,FALSE,19150,4
+65,Other,Orthopedics,13-01-2024,20-01-2024,17:18,10:40,17:06,17:35,Medication Error,2,Non-Urgent,Diabetes,Communication,Forgot,FALSE,11709,18
+66,Other,Cardiology,07-08-2024,15-08-2024,14:33,14:59,15:29,16:21,None,2,Non-Urgent,Hypertension,Staff Behavior,Forgot,TRUE,16170,25
+67,Male,Neurology,02-03-2024,04-03-2024,10:57,13:30,13:33,14:03,Billing Issue,5,Urgent,None,Communication,Health Condition,TRUE,14154,36
+68,Other,Dermatology,15-04-2024,21-04-2024,16:30,10:41,14:28,14:58,Medication Error,3,Emergency,Asthma,Wait Time,Transport Issues,TRUE,18066,20
+69,Female,Orthopedics,26-06-2024,30-06-2024,11:13,16:30,16:55,17:17,Staff Behavior,2,Urgent,None,Facilities,Forgot,FALSE,11832,3
+70,Female,Neurology,08-04-2024,12-04-2024,12:21,14:48,16:59,17:26,Staff Behavior,1,Urgent,Heart Disease,Wait Time,Health Condition,TRUE,16038,44
+71,Male,Dermatology,25-07-2024,04-08-2024,18:47,10:47,14:16,18:49,Delay in Discharge,3,Non-Urgent,Hypertension,Staff Behavior,Transport Issues,FALSE,19120,4
+72,Other,General Medicine,02-05-2024,09-05-2024,11:44,13:00,13:20,18:02,None,2,Non-Urgent,Heart Disease,Staff Behavior,Health Condition,TRUE,5538,2
+73,Other,Orthopedics,15-06-2024,19-06-2024,18:50,12:20,16:11,16:22,Billing Issue,2,Emergency,Hypertension,Staff Behavior,Forgot,FALSE,10696,17
+74,Female,Oncology,28-05-2024,07-06-2024,12:34,16:27,16:45,16:58,None,5,Non-Urgent,Hypertension,Wait Time,None,TRUE,12638,21
+75,Other,Neurology,27-05-2024,31-05-2024,14:12,09:18,17:04,17:28,Medication Error,1,Emergency,Asthma,Facilities,None,TRUE,5941,3
+76,Female,Orthopedics,23-05-2024,26-05-2024,10:55,14:33,14:49,17:17,None,5,Non-Urgent,Asthma,Facilities,Forgot,TRUE,19780,5
+77,Female,Pediatrics,23-04-2024,29-04-2024,17:50,08:06,10:47,13:04,Delay in Discharge,4,Urgent,Asthma,Wait Time,None,FALSE,7265,28
+78,Female,Orthopedics,06-08-2024,09-08-2024,16:48,10:11,12:37,12:55,Billing Issue,2,Emergency,Asthma,Communication,None,FALSE,13681,26
+79,Male,Orthopedics,29-10-2024,31-10-2024,13:31,08:54,09:13,15:46,Staff Behavior,1,Urgent,None,Cleanliness,Forgot,TRUE,14596,24
+80,Male,Neurology,21-09-2024,01-10-2024,14:52,09:14,10:45,18:44,Delay in Discharge,5,Emergency,Asthma,Staff Behavior,Forgot,TRUE,9595,43
+81,Other,Dermatology,18-05-2024,23-05-2024,16:14,12:47,13:06,15:14,Staff Behavior,5,Urgent,Diabetes,Staff Behavior,None,TRUE,9654,17
+82,Other,Oncology,15-03-2024,19-03-2024,14:21,14:23,17:27,17:52,Billing Issue,2,Non-Urgent,Hypertension,Communication,Transport Issues,FALSE,15696,21
+83,Male,General Medicine,01-07-2024,06-07-2024,16:50,12:27,12:37,15:57,Staff Behavior,1,Urgent,Hypertension,Cleanliness,Transport Issues,FALSE,17128,38
+84,Other,Dermatology,21-07-2024,24-07-2024,13:00,16:51,17:06,17:32,Delay in Discharge,5,Urgent,Heart Disease,Wait Time,Forgot,FALSE,19012,36
+85,Male,Neurology,23-07-2024,31-07-2024,16:22,16:47,17:47,18:10,Medication Error,2,Non-Urgent,Hypertension,Cleanliness,Transport Issues,TRUE,6028,24
+86,Other,Oncology,19-09-2024,29-09-2024,10:03,09:38,10:01,11:01,Staff Behavior,5,Emergency,None,Facilities,Forgot,FALSE,12086,10
+87,Other,Oncology,24-08-2024,01-09-2024,11:33,11:24,11:34,12:49,None,2,Emergency,Diabetes,Communication,Forgot,TRUE,16689,16
+88,Other,Oncology,20-02-2024,24-02-2024,14:16,10:05,16:45,16:56,Delay in Discharge,3,Urgent,Diabetes,Cleanliness,Health Condition,FALSE,9258,38
+89,Male,Neurology,05-10-2024,14-10-2024,17:03,08:00,11:31,14:05,Staff Behavior,4,Emergency,Heart Disease,Wait Time,Transport Issues,TRUE,13493,18
+90,Other,Cardiology,25-05-2024,28-05-2024,11:26,16:07,16:42,17:03,None,2,Non-Urgent,Diabetes,Facilities,None,FALSE,15355,5
+91,Female,General Medicine,13-08-2024,15-08-2024,15:15,15:35,17:06,18:47,Staff Behavior,3,Urgent,Heart Disease,Wait Time,Forgot,FALSE,19974,21
+92,Other,Cardiology,27-03-2024,05-04-2024,13:30,14:01,14:59,15:21,Staff Behavior,2,Urgent,Heart Disease,Staff Behavior,Transport Issues,TRUE,6810,26
+93,Other,Pediatrics,05-03-2024,10-03-2024,10:44,14:47,16:49,16:59,None,4,Urgent,Hypertension,Staff Behavior,Health Condition,TRUE,9528,41
+94,Female,Pediatrics,25-03-2024,30-03-2024,12:00,13:57,17:34,18:03,Staff Behavior,1,Urgent,Hypertension,Communication,Transport Issues,FALSE,9249,45
+95,Male,Orthopedics,02-03-2024,12-03-2024,17:08,11:54,17:51,18:18,None,3,Non-Urgent,Heart Disease,Staff Behavior,Transport Issues,FALSE,9776,24
+96,Other,Orthopedics,26-08-2024,29-08-2024,16:29,08:06,14:41,15:02,Delay in Discharge,1,Emergency,Heart Disease,Cleanliness,None,FALSE,7393,48
+97,Other,Dermatology,18-09-2024,23-09-2024,15:04,08:19,17:49,18:03,None,2,Urgent,Heart Disease,Wait Time,Health Condition,TRUE,19048,6
+98,Male,Orthopedics,06-10-2024,09-10-2024,13:23,13:53,17:08,17:33,Billing Issue,3,Non-Urgent,Asthma,Cleanliness,None,FALSE,11186,47
+99,Male,General Medicine,22-06-2024,24-06-2024,12:50,14:49,15:07,15:34,Medication Error,1,Urgent,Diabetes,Wait Time,Health Condition,FALSE,6274,15
+100,Female,Cardiology,17-07-2024,25-07-2024,11:48,13:36,16:41,18:31,Billing Issue,1,Urgent,Asthma,Facilities,Health Condition,FALSE,12590,46
+101,Male,Oncology,29-06-2024,01-07-2024,17:19,09:28,14:09,14:26,Billing Issue,2,Urgent,Asthma,Facilities,None,FALSE,16600,38
+102,Female,Pediatrics,19-09-2024,26-09-2024,13:09,09:38,17:09,17:36,Medication Error,2,Non-Urgent,Heart Disease,Cleanliness,Transport Issues,TRUE,17336,40
+103,Male,Orthopedics,01-11-2024,08-11-2024,12:31,08:09,09:41,13:48,Staff Behavior,5,Non-Urgent,Diabetes,Communication,Health Condition,FALSE,6794,33
+104,Male,Cardiology,09-09-2024,16-09-2024,11:22,09:03,13:50,14:03,Billing Issue,3,Emergency,None,Facilities,Transport Issues,FALSE,16791,8
+105,Female,Oncology,18-05-2024,24-05-2024,14:33,09:24,16:01,16:31,Billing Issue,5,Emergency,None,Staff Behavior,Health Condition,TRUE,12520,22
+106,Other,General Medicine,25-07-2024,01-08-2024,13:56,11:19,16:34,17:01,Staff Behavior,1,Non-Urgent,Diabetes,Staff Behavior,None,FALSE,11953,18
+107,Other,Cardiology,16-01-2024,19-01-2024,16:20,14:00,14:15,14:42,Delay in Discharge,1,Emergency,Heart Disease,Staff Behavior,None,TRUE,7098,47
+108,Female,Cardiology,25-02-2024,27-02-2024,13:57,11:07,11:23,13:50,Staff Behavior,4,Emergency,Heart Disease,Wait Time,Health Condition,FALSE,8936,22
+109,Female,Neurology,05-03-2024,14-03-2024,16:47,13:14,13:28,15:55,Billing Issue,5,Emergency,Heart Disease,Facilities,None,TRUE,7984,14
+110,Male,Cardiology,19-06-2024,29-06-2024,17:30,09:46,16:04,17:41,Medication Error,5,Emergency,Hypertension,Staff Behavior,None,TRUE,19419,9
+111,Other,Oncology,04-03-2024,14-03-2024,17:44,14:29,14:39,15:54,Billing Issue,1,Non-Urgent,None,Communication,Transport Issues,FALSE,18947,31
+112,Other,Orthopedics,13-08-2024,19-08-2024,11:21,16:31,16:49,17:13,Billing Issue,4,Urgent,Heart Disease,Facilities,Transport Issues,FALSE,11124,1
+113,Male,Cardiology,03-03-2024,07-03-2024,13:39,15:31,15:57,16:07,Billing Issue,4,Urgent,Hypertension,Cleanliness,Transport Issues,FALSE,6469,28
+114,Male,Oncology,27-06-2024,05-07-2024,18:32,11:46,16:57,17:07,Billing Issue,5,Non-Urgent,Diabetes,Wait Time,Transport Issues,FALSE,6989,19
+115,Other,Oncology,03-06-2024,05-06-2024,16:41,08:30,16:34,18:59,Staff Behavior,3,Urgent,Heart Disease,Staff Behavior,Health Condition,FALSE,6002,9
+116,Male,Cardiology,13-07-2024,18-07-2024,12:33,16:13,16:25,16:47,Billing Issue,1,Urgent,Asthma,Facilities,Health Condition,TRUE,16260,31
+117,Female,Oncology,17-03-2024,23-03-2024,12:12,08:11,17:17,17:43,Staff Behavior,5,Emergency,Asthma,Staff Behavior,None,TRUE,18677,29
+118,Male,Oncology,08-07-2024,17-07-2024,10:07,09:22,17:52,18:11,Delay in Discharge,2,Emergency,Asthma,Cleanliness,None,FALSE,6516,37
+119,Male,Orthopedics,05-06-2024,15-06-2024,15:00,10:51,16:42,16:52,Delay in Discharge,4,Emergency,None,Facilities,Health Condition,FALSE,5443,13
+120,Male,Orthopedics,12-10-2024,14-10-2024,12:09,10:43,14:30,14:49,Staff Behavior,4,Non-Urgent,Heart Disease,Cleanliness,Health Condition,TRUE,16739,29
+121,Other,Oncology,05-03-2024,11-03-2024,10:05,15:44,16:00,16:18,None,3,Non-Urgent,None,Communication,None,TRUE,19599,15
+122,Male,Neurology,22-09-2024,02-10-2024,14:56,12:55,13:10,13:32,Delay in Discharge,5,Emergency,Asthma,Communication,Health Condition,FALSE,15767,32
+123,Female,Oncology,25-09-2024,30-09-2024,18:50,16:07,17:05,17:22,Delay in Discharge,2,Emergency,None,Cleanliness,Health Condition,TRUE,8423,40
+124,Male,Orthopedics,07-07-2024,13-07-2024,11:22,08:47,09:11,12:27,None,2,Non-Urgent,Diabetes,Staff Behavior,Transport Issues,FALSE,10041,19
+125,Other,Orthopedics,12-02-2024,21-02-2024,16:58,10:15,15:59,18:00,Billing Issue,1,Non-Urgent,None,Staff Behavior,Transport Issues,TRUE,12141,44
+126,Male,Dermatology,05-06-2024,13-06-2024,18:47,09:14,09:20,15:25,Staff Behavior,3,Urgent,None,Wait Time,Transport Issues,TRUE,19978,17
+127,Other,Dermatology,02-09-2024,05-09-2024,12:38,11:38,13:00,14:55,Medication Error,4,Non-Urgent,Asthma,Cleanliness,Transport Issues,FALSE,11544,34
+128,Male,General Medicine,04-09-2024,11-09-2024,10:21,08:34,09:47,13:38,Staff Behavior,1,Non-Urgent,Heart Disease,Cleanliness,Health Condition,FALSE,10987,17
+129,Male,Neurology,05-06-2024,10-06-2024,12:33,16:58,17:20,17:41,Delay in Discharge,2,Urgent,Asthma,Communication,Health Condition,TRUE,7171,1
+130,Female,Oncology,25-04-2024,28-04-2024,17:20,14:03,14:21,14:47,Medication Error,1,Emergency,Asthma,Wait Time,Transport Issues,FALSE,5152,46
+131,Male,Neurology,17-06-2024,27-06-2024,14:10,14:09,14:32,14:47,Delay in Discharge,2,Emergency,Diabetes,Facilities,Health Condition,TRUE,15447,36
+132,Male,Orthopedics,24-04-2024,03-05-2024,18:29,09:53,14:59,15:25,Medication Error,1,Non-Urgent,Asthma,Staff Behavior,Health Condition,FALSE,12088,27
+133,Other,General Medicine,16-03-2024,18-03-2024,17:52,15:54,16:05,16:44,Staff Behavior,3,Urgent,Asthma,Cleanliness,Health Condition,TRUE,11112,28
+134,Other,Neurology,04-10-2024,09-10-2024,16:14,16:55,17:06,17:31,Staff Behavior,5,Non-Urgent,Asthma,Communication,Health Condition,FALSE,13627,44
+135,Female,Cardiology,02-04-2024,12-04-2024,14:12,13:03,15:20,15:44,Delay in Discharge,1,Non-Urgent,None,Facilities,Transport Issues,TRUE,11391,31
+136,Female,Cardiology,17-05-2024,24-05-2024,11:00,11:11,12:39,13:28,Staff Behavior,3,Emergency,Hypertension,Cleanliness,Forgot,FALSE,12648,46
+137,Other,Pediatrics,07-10-2024,14-10-2024,16:17,15:51,17:14,17:26,Medication Error,4,Emergency,Diabetes,Facilities,Forgot,FALSE,8774,23
+138,Male,Cardiology,09-06-2024,14-06-2024,17:46,10:47,12:25,12:48,Billing Issue,3,Non-Urgent,Asthma,Communication,None,FALSE,19627,46
+139,Female,Neurology,21-01-2024,23-01-2024,15:52,12:17,15:47,16:09,Staff Behavior,4,Urgent,Diabetes,Staff Behavior,Health Condition,FALSE,7798,47
+140,Female,Oncology,10-08-2024,13-08-2024,14:38,15:28,15:58,18:53,Delay in Discharge,4,Urgent,Heart Disease,Cleanliness,Transport Issues,FALSE,6340,44
+141,Other,Neurology,05-05-2024,11-05-2024,15:15,15:27,15:45,17:26,Medication Error,3,Emergency,Hypertension,Communication,Forgot,TRUE,19364,24
+142,Female,Oncology,05-07-2024,15-07-2024,16:09,13:20,13:30,17:49,None,2,Urgent,Heart Disease,Facilities,Health Condition,FALSE,16445,10
+143,Male,Oncology,04-10-2024,12-10-2024,17:56,10:11,13:01,16:11,Medication Error,5,Urgent,Heart Disease,Staff Behavior,Transport Issues,TRUE,8691,25
+144,Female,General Medicine,29-02-2024,10-03-2024,18:55,08:44,14:55,15:12,Staff Behavior,3,Emergency,None,Communication,Transport Issues,FALSE,8526,6
+145,Female,Dermatology,09-01-2024,17-01-2024,15:35,16:53,17:18,17:42,None,5,Urgent,Hypertension,Wait Time,None,TRUE,17993,32
+146,Female,Dermatology,21-01-2024,26-01-2024,12:19,10:10,10:26,12:02,Staff Behavior,5,Urgent,None,Cleanliness,None,FALSE,14074,37
+147,Other,Pediatrics,02-03-2024,09-03-2024,16:39,08:42,17:13,17:43,Delay in Discharge,3,Urgent,None,Wait Time,Transport Issues,FALSE,16348,10
+148,Other,Pediatrics,26-10-2024,05-11-2024,10:38,16:58,17:08,17:32,Staff Behavior,5,Non-Urgent,Asthma,Staff Behavior,Transport Issues,FALSE,9072,22
+149,Female,Neurology,12-03-2024,18-03-2024,15:00,12:08,12:21,12:50,None,1,Non-Urgent,Diabetes,Facilities,None,TRUE,12827,4
+150,Other,Oncology,25-07-2024,28-07-2024,18:01,14:10,14:29,14:55,Billing Issue,4,Emergency,Heart Disease,Staff Behavior,None,TRUE,18214,36
+151,Other,Oncology,08-07-2024,17-07-2024,15:35,13:03,13:16,17:52,Billing Issue,3,Urgent,Diabetes,Cleanliness,Health Condition,FALSE,10007,48
+152,Male,Oncology,28-07-2024,01-08-2024,15:30,12:32,16:42,16:59,Staff Behavior,4,Non-Urgent,Diabetes,Wait Time,Transport Issues,TRUE,9305,39
+153,Male,General Medicine,25-07-2024,27-07-2024,12:48,09:03,13:25,13:45,Staff Behavior,4,Emergency,Asthma,Communication,None,FALSE,14333,39
+154,Female,Pediatrics,12-05-2024,19-05-2024,17:00,15:46,16:15,16:39,Medication Error,1,Urgent,Hypertension,Wait Time,Forgot,TRUE,14726,16
+155,Female,Oncology,11-08-2024,19-08-2024,18:45,08:26,13:42,16:03,Staff Behavior,5,Emergency,Heart Disease,Staff Behavior,Transport Issues,TRUE,18652,11
+156,Female,Neurology,16-02-2024,25-02-2024,16:47,10:13,12:47,14:00,Staff Behavior,4,Emergency,Hypertension,Staff Behavior,Transport Issues,TRUE,8815,33
+157,Female,General Medicine,03-09-2024,08-09-2024,16:36,08:15,12:50,16:34,Billing Issue,1,Urgent,Hypertension,Communication,None,TRUE,16804,9
+158,Female,Pediatrics,21-03-2024,26-03-2024,14:27,10:12,17:11,17:23,None,1,Emergency,None,Wait Time,Forgot,TRUE,16326,2
+159,Male,Orthopedics,01-06-2024,09-06-2024,11:29,08:12,13:51,14:21,Delay in Discharge,4,Urgent,Diabetes,Cleanliness,None,TRUE,15313,21
+160,Other,Oncology,05-09-2024,13-09-2024,10:30,13:28,13:55,14:50,Medication Error,5,Emergency,Asthma,Wait Time,None,FALSE,15454,33
+161,Female,General Medicine,04-02-2024,13-02-2024,13:46,12:59,13:09,17:52,Staff Behavior,5,Urgent,Asthma,Staff Behavior,None,TRUE,11353,21
+162,Male,Oncology,13-05-2024,23-05-2024,17:13,14:44,17:04,17:24,Staff Behavior,1,Urgent,Hypertension,Communication,Health Condition,TRUE,8022,3
+163,Male,Neurology,04-08-2024,14-08-2024,12:24,16:31,16:51,17:08,Billing Issue,3,Emergency,Hypertension,Cleanliness,Forgot,TRUE,16918,20
+164,Male,Dermatology,02-07-2024,09-07-2024,16:26,14:50,15:01,15:13,Billing Issue,5,Non-Urgent,Hypertension,Staff Behavior,None,TRUE,6720,29
+165,Other,Pediatrics,14-01-2024,23-01-2024,18:26,12:42,13:10,16:10,Staff Behavior,5,Emergency,None,Communication,None,FALSE,17741,40
+166,Female,Dermatology,17-05-2024,19-05-2024,13:17,10:53,11:52,18:04,Delay in Discharge,4,Urgent,Diabetes,Facilities,None,TRUE,17863,26
+167,Other,Pediatrics,14-02-2024,22-02-2024,13:41,11:44,13:59,15:42,Billing Issue,3,Emergency,Heart Disease,Communication,None,FALSE,9904,33
+168,Other,Cardiology,02-10-2024,09-10-2024,14:01,16:16,16:43,17:12,Staff Behavior,1,Emergency,Hypertension,Facilities,None,TRUE,16634,48
+169,Female,Pediatrics,07-01-2024,12-01-2024,18:58,10:19,16:04,16:30,Delay in Discharge,1,Emergency,Hypertension,Communication,Forgot,FALSE,16592,13
+170,Male,Dermatology,28-01-2024,06-02-2024,18:56,16:24,16:34,16:58,Staff Behavior,1,Non-Urgent,None,Staff Behavior,Forgot,TRUE,9284,35
+171,Male,Neurology,22-01-2024,24-01-2024,16:04,11:05,13:42,13:54,Delay in Discharge,3,Urgent,Heart Disease,Wait Time,Health Condition,FALSE,8147,11
+172,Other,General Medicine,17-04-2024,19-04-2024,14:24,14:59,15:25,15:45,Delay in Discharge,2,Urgent,Asthma,Communication,Health Condition,TRUE,14236,26
+173,Female,Pediatrics,14-06-2024,22-06-2024,15:43,08:28,12:47,13:05,None,3,Emergency,Diabetes,Wait Time,Forgot,TRUE,16375,43
+174,Female,Orthopedics,02-10-2024,09-10-2024,11:15,09:40,12:18,16:17,Delay in Discharge,4,Emergency,Heart Disease,Communication,Forgot,TRUE,10741,46
+175,Female,Oncology,10-01-2024,12-01-2024,12:36,08:02,09:33,15:44,None,1,Emergency,Hypertension,Communication,None,FALSE,18972,30
+176,Other,Cardiology,24-09-2024,27-09-2024,10:58,14:05,14:30,14:49,Billing Issue,4,Urgent,Diabetes,Staff Behavior,None,FALSE,12197,48
+177,Male,Orthopedics,10-01-2024,19-01-2024,10:16,15:27,15:37,15:50,Billing Issue,1,Non-Urgent,Asthma,Wait Time,None,FALSE,14375,12
+178,Other,General Medicine,02-02-2024,04-02-2024,18:56,09:20,12:57,13:48,Billing Issue,5,Non-Urgent,Hypertension,Wait Time,Health Condition,FALSE,7297,10
+179,Male,Neurology,17-09-2024,25-09-2024,11:45,14:33,17:05,17:19,Staff Behavior,2,Non-Urgent,Diabetes,Facilities,None,TRUE,11465,28
+180,Female,Cardiology,17-03-2024,20-03-2024,13:45,08:01,16:27,16:45,Delay in Discharge,5,Non-Urgent,Asthma,Communication,Health Condition,FALSE,5247,30
+181,Male,Oncology,10-03-2024,13-03-2024,12:40,16:31,16:56,18:54,Delay in Discharge,2,Non-Urgent,Diabetes,Cleanliness,Forgot,TRUE,18340,1
+182,Male,Orthopedics,22-08-2024,29-08-2024,11:00,08:47,15:23,15:42,Billing Issue,2,Urgent,Heart Disease,Wait Time,Health Condition,FALSE,6820,19
+183,Other,Neurology,06-07-2024,08-07-2024,13:05,16:23,16:34,16:51,Medication Error,3,Emergency,Heart Disease,Facilities,None,FALSE,5142,47
+184,Male,Dermatology,10-04-2024,14-04-2024,14:16,11:31,14:59,15:29,Medication Error,4,Emergency,Heart Disease,Communication,Forgot,TRUE,9024,28
+185,Female,Cardiology,07-09-2024,16-09-2024,10:54,15:32,15:49,16:04,None,3,Emergency,Heart Disease,Staff Behavior,Health Condition,TRUE,9951,28
+186,Male,Oncology,17-02-2024,26-02-2024,12:36,14:19,16:39,16:57,Medication Error,1,Emergency,Diabetes,Wait Time,Forgot,FALSE,10563,14
+187,Male,Neurology,06-07-2024,08-07-2024,10:44,09:02,14:15,14:42,Delay in Discharge,3,Non-Urgent,None,Communication,Transport Issues,FALSE,7310,29
+188,Male,Orthopedics,04-03-2024,11-03-2024,10:37,14:46,15:03,15:32,Delay in Discharge,5,Emergency,None,Facilities,Transport Issues,FALSE,16821,17
+189,Female,Pediatrics,06-02-2024,13-02-2024,18:03,14:13,14:58,15:25,Delay in Discharge,4,Non-Urgent,Hypertension,Cleanliness,Transport Issues,TRUE,7566,14
+190,Other,Orthopedics,14-06-2024,16-06-2024,17:54,15:19,17:20,17:35,Delay in Discharge,1,Urgent,Heart Disease,Cleanliness,Transport Issues,TRUE,19055,38
+191,Other,Dermatology,16-07-2024,21-07-2024,14:46,13:07,16:01,16:19,Delay in Discharge,5,Non-Urgent,Hypertension,Staff Behavior,None,FALSE,19825,18
+192,Other,Orthopedics,08-07-2024,16-07-2024,12:36,09:49,14:41,15:01,Delay in Discharge,2,Urgent,Hypertension,Staff Behavior,Transport Issues,TRUE,14217,15
+193,Female,Neurology,22-09-2024,26-09-2024,12:01,10:10,16:48,17:08,Staff Behavior,1,Emergency,None,Staff Behavior,Health Condition,TRUE,6298,2
+194,Other,Pediatrics,11-02-2024,19-02-2024,14:02,15:39,16:06,16:18,None,2,Emergency,None,Staff Behavior,Forgot,FALSE,9013,30
+195,Male,Oncology,12-07-2024,15-07-2024,12:07,10:33,17:57,18:10,Delay in Discharge,3,Urgent,None,Staff Behavior,Transport Issues,FALSE,10001,39
+196,Female,General Medicine,30-08-2024,02-09-2024,11:52,11:03,14:18,14:40,Billing Issue,4,Urgent,Heart Disease,Cleanliness,None,FALSE,14766,45
+197,Female,Neurology,13-01-2024,20-01-2024,17:14,12:30,14:07,14:37,Delay in Discharge,2,Emergency,Asthma,Communication,None,FALSE,14950,37
+198,Male,Neurology,07-05-2024,09-05-2024,13:45,11:28,12:28,12:55,None,1,Emergency,Diabetes,Communication,Forgot,FALSE,13237,15
+199,Other,Pediatrics,13-08-2024,19-08-2024,10:53,16:00,16:11,16:31,Staff Behavior,3,Urgent,None,Wait Time,Health Condition,FALSE,13018,32
+200,Female,Cardiology,23-06-2024,25-06-2024,15:24,08:52,14:49,16:29,Billing Issue,3,Non-Urgent,Heart Disease,Facilities,Transport Issues,TRUE,19787,26
+201,Male,General Medicine,29-09-2024,05-10-2024,10:25,12:29,12:50,15:25,Staff Behavior,1,Urgent,Heart Disease,Wait Time,Health Condition,FALSE,19497,9
+202,Female,General Medicine,14-07-2024,16-07-2024,16:00,11:03,14:46,15:01,None,3,Non-Urgent,None,Cleanliness,Health Condition,FALSE,8549,25
+203,Female,Oncology,09-04-2024,19-04-2024,18:59,09:55,14:18,14:38,Delay in Discharge,1,Emergency,Hypertension,Staff Behavior,Transport Issues,TRUE,12780,28
+204,Male,Dermatology,07-03-2024,14-03-2024,12:22,08:43,13:48,15:35,Delay in Discharge,4,Emergency,None,Facilities,Health Condition,FALSE,15426,27
+205,Other,Pediatrics,01-07-2024,06-07-2024,16:02,09:23,12:57,18:50,Medication Error,4,Non-Urgent,Asthma,Staff Behavior,Transport Issues,FALSE,11392,13
+206,Female,Orthopedics,19-08-2024,24-08-2024,11:59,08:09,17:25,17:46,Staff Behavior,4,Non-Urgent,Diabetes,Staff Behavior,Transport Issues,FALSE,9246,1
+207,Male,Oncology,19-08-2024,24-08-2024,12:46,16:36,16:46,17:37,None,2,Non-Urgent,Asthma,Communication,Forgot,TRUE,16344,47
+208,Female,Neurology,29-08-2024,01-09-2024,15:41,08:07,14:42,15:07,Medication Error,4,Emergency,Hypertension,Wait Time,Transport Issues,TRUE,8472,1
+209,Male,Orthopedics,10-10-2024,16-10-2024,11:27,13:48,14:03,14:15,Billing Issue,5,Urgent,Diabetes,Wait Time,Forgot,TRUE,7273,33
+210,Female,Oncology,26-04-2024,29-04-2024,10:06,14:40,14:57,15:07,Medication Error,4,Emergency,None,Facilities,Transport Issues,TRUE,7218,2
+211,Female,General Medicine,07-05-2024,15-05-2024,10:12,11:55,14:44,15:05,Medication Error,3,Emergency,Diabetes,Communication,Forgot,TRUE,7333,15
+212,Female,Pediatrics,07-02-2024,12-02-2024,16:07,12:07,13:11,13:32,Medication Error,2,Urgent,Heart Disease,Cleanliness,Health Condition,FALSE,12652,47
+213,Male,Neurology,28-04-2024,07-05-2024,12:15,15:17,15:31,18:35,Billing Issue,1,Emergency,Heart Disease,Staff Behavior,Transport Issues,FALSE,11037,29
+214,Male,Neurology,31-08-2024,05-09-2024,16:53,08:53,16:07,16:22,Medication Error,3,Emergency,None,Facilities,Health Condition,FALSE,17385,19
+215,Male,General Medicine,17-05-2024,24-05-2024,13:17,15:46,16:08,16:31,Staff Behavior,2,Emergency,Hypertension,Communication,None,FALSE,9357,28
+216,Other,Dermatology,14-10-2024,17-10-2024,10:31,15:10,15:24,15:35,Billing Issue,4,Non-Urgent,Asthma,Communication,Transport Issues,FALSE,11652,14
+217,Male,Dermatology,17-08-2024,23-08-2024,10:24,12:33,13:02,13:18,Medication Error,2,Emergency,Hypertension,Communication,Forgot,FALSE,19192,2
+218,Other,Dermatology,25-07-2024,02-08-2024,10:40,16:25,16:44,16:58,None,4,Emergency,Diabetes,Facilities,Forgot,FALSE,19385,40
+219,Other,Pediatrics,22-01-2024,30-01-2024,10:14,09:36,12:52,13:19,Billing Issue,2,Urgent,Asthma,Staff Behavior,Health Condition,TRUE,8968,6
+220,Male,Orthopedics,08-09-2024,14-09-2024,12:47,11:15,11:35,11:52,Delay in Discharge,2,Emergency,Hypertension,Communication,Forgot,FALSE,10405,32
+221,Other,Pediatrics,23-08-2024,31-08-2024,14:17,14:31,15:00,15:19,None,5,Urgent,Diabetes,Wait Time,Transport Issues,TRUE,14125,37
+222,Other,Neurology,27-01-2024,06-02-2024,15:50,10:39,14:09,16:32,Delay in Discharge,2,Non-Urgent,Hypertension,Cleanliness,Health Condition,TRUE,16669,30
+223,Other,Dermatology,23-02-2024,02-03-2024,10:36,15:25,15:37,16:02,Delay in Discharge,2,Non-Urgent,Diabetes,Facilities,None,TRUE,14319,47
+224,Other,Orthopedics,10-05-2024,15-05-2024,11:13,12:40,12:59,16:19,None,5,Emergency,Heart Disease,Staff Behavior,Transport Issues,FALSE,6845,30
+225,Male,Pediatrics,09-01-2024,13-01-2024,13:14,14:33,16:43,17:01,Medication Error,5,Emergency,Hypertension,Cleanliness,None,FALSE,18311,9
+226,Female,General Medicine,29-10-2024,07-11-2024,14:20,12:04,12:17,16:24,Staff Behavior,2,Non-Urgent,Diabetes,Wait Time,Forgot,FALSE,12893,13
+227,Other,Orthopedics,22-10-2024,28-10-2024,12:05,12:22,16:21,16:46,None,2,Emergency,Diabetes,Cleanliness,Health Condition,FALSE,15905,8
+228,Other,Orthopedics,23-05-2024,28-05-2024,13:16,12:35,12:35,13:02,Medication Error,2,Emergency,Asthma,Wait Time,Health Condition,TRUE,6292,7
+229,Other,Cardiology,02-07-2024,04-07-2024,14:08,16:33,16:48,16:59,None,1,Emergency,Hypertension,Communication,Health Condition,TRUE,13697,25
+230,Other,Neurology,22-04-2024,29-04-2024,18:00,13:03,13:28,16:25,Medication Error,2,Emergency,Diabetes,Wait Time,Health Condition,TRUE,14959,12
+231,Female,Pediatrics,02-09-2024,09-09-2024,16:35,11:02,11:31,11:32,None,5,Non-Urgent,None,Wait Time,None,TRUE,8060,2
+232,Male,Neurology,01-05-2024,07-05-2024,11:51,14:51,15:09,15:28,Medication Error,1,Emergency,Diabetes,Communication,None,TRUE,5369,2
+233,Other,Orthopedics,07-03-2024,10-03-2024,12:02,13:27,17:45,18:06,Medication Error,5,Urgent,Hypertension,Facilities,Transport Issues,FALSE,10608,44
+234,Other,Orthopedics,06-08-2024,13-08-2024,18:23,15:52,16:19,16:49,Medication Error,3,Urgent,Hypertension,Wait Time,Transport Issues,FALSE,5329,23
+235,Male,Neurology,18-01-2024,21-01-2024,13:06,15:27,15:54,16:14,Medication Error,2,Urgent,None,Staff Behavior,Transport Issues,FALSE,15410,44
+236,Female,Orthopedics,09-03-2024,14-03-2024,17:24,14:28,15:22,16:53,None,4,Urgent,Hypertension,Communication,Health Condition,FALSE,11453,6
+237,Other,Oncology,15-10-2024,25-10-2024,10:08,13:04,13:30,13:56,Staff Behavior,5,Emergency,Asthma,Staff Behavior,None,FALSE,13798,44
+238,Male,Orthopedics,22-06-2024,25-06-2024,18:47,09:07,09:32,16:17,Medication Error,2,Urgent,Diabetes,Wait Time,Forgot,TRUE,9872,4
+239,Other,Cardiology,12-07-2024,18-07-2024,14:12,08:42,16:07,16:21,Billing Issue,3,Non-Urgent,Asthma,Facilities,None,FALSE,14490,10
+240,Other,Pediatrics,19-05-2024,26-05-2024,14:18,09:15,10:41,17:40,Billing Issue,4,Non-Urgent,Heart Disease,Staff Behavior,Forgot,FALSE,7467,41
+241,Male,Dermatology,26-07-2024,04-08-2024,17:40,12:45,13:50,14:08,Delay in Discharge,5,Urgent,Asthma,Wait Time,Transport Issues,TRUE,9653,6
+242,Male,Dermatology,31-08-2024,06-09-2024,15:07,12:33,13:03,13:16,Delay in Discharge,4,Non-Urgent,Asthma,Facilities,Transport Issues,TRUE,11152,46
+243,Female,Neurology,28-10-2024,30-10-2024,16:34,16:41,16:54,18:33,Delay in Discharge,2,Non-Urgent,Diabetes,Cleanliness,None,TRUE,15259,18
+244,Male,Cardiology,25-04-2024,05-05-2024,12:58,13:35,17:08,17:29,Delay in Discharge,1,Non-Urgent,Hypertension,Communication,Transport Issues,TRUE,8019,42
+245,Male,Cardiology,20-05-2024,25-05-2024,13:52,09:00,11:27,17:59,Delay in Discharge,1,Non-Urgent,Hypertension,Communication,Transport Issues,FALSE,12436,7
+246,Other,Neurology,26-08-2024,03-09-2024,12:02,14:07,14:28,14:47,Delay in Discharge,1,Non-Urgent,None,Cleanliness,None,TRUE,17336,9
+247,Female,Orthopedics,06-02-2024,09-02-2024,12:57,10:02,14:32,14:52,None,4,Emergency,Diabetes,Cleanliness,None,FALSE,17692,35
+248,Female,Oncology,21-06-2024,26-06-2024,18:23,14:49,15:03,16:29,Delay in Discharge,3,Non-Urgent,None,Staff Behavior,None,FALSE,9402,42
+249,Female,Cardiology,23-07-2024,25-07-2024,13:32,13:16,13:32,13:46,None,4,Emergency,None,Staff Behavior,Forgot,TRUE,13038,23
+250,Other,Orthopedics,09-04-2024,11-04-2024,16:00,10:46,11:09,18:04,Delay in Discharge,5,Urgent,Hypertension,Facilities,None,TRUE,15799,37
+251,Female,Orthopedics,21-02-2024,26-02-2024,11:58,13:39,13:59,16:03,Staff Behavior,2,Emergency,Heart Disease,Facilities,None,FALSE,17229,20
+252,Male,Neurology,04-04-2024,14-04-2024,14:28,16:08,16:24,16:37,Medication Error,1,Emergency,None,Cleanliness,None,FALSE,6985,35
+253,Male,Orthopedics,04-05-2024,10-05-2024,11:00,13:44,17:43,18:11,Delay in Discharge,3,Emergency,Heart Disease,Communication,Forgot,FALSE,7020,29
+254,Female,Dermatology,17-05-2024,27-05-2024,15:45,13:34,17:57,18:21,Staff Behavior,4,Urgent,Diabetes,Wait Time,None,FALSE,10577,13
+255,Male,Oncology,26-06-2024,05-07-2024,10:27,16:35,16:51,17:04,Delay in Discharge,4,Emergency,None,Wait Time,Health Condition,FALSE,12456,11
+256,Female,Orthopedics,27-03-2024,03-04-2024,11:48,11:06,13:10,17:47,Staff Behavior,4,Emergency,Asthma,Staff Behavior,Health Condition,TRUE,13884,34
+257,Female,Pediatrics,14-01-2024,16-01-2024,11:42,11:30,16:54,17:12,Delay in Discharge,2,Emergency,Hypertension,Wait Time,Transport Issues,TRUE,9646,4
+258,Female,Oncology,05-02-2024,11-02-2024,11:19,14:57,15:21,15:43,None,5,Emergency,Heart Disease,Cleanliness,Health Condition,FALSE,18657,2
+259,Other,Neurology,26-05-2024,05-06-2024,12:33,10:10,11:58,12:16,Billing Issue,2,Urgent,Heart Disease,Staff Behavior,Forgot,FALSE,5424,35
+260,Male,Orthopedics,20-06-2024,29-06-2024,17:06,12:28,14:27,14:41,Medication Error,1,Urgent,Hypertension,Staff Behavior,Transport Issues,FALSE,15412,28
+261,Female,Neurology,11-09-2024,16-09-2024,17:25,16:38,17:05,18:10,Delay in Discharge,2,Emergency,Heart Disease,Staff Behavior,Forgot,TRUE,11288,19
+262,Female,Neurology,14-01-2024,17-01-2024,17:58,14:10,17:18,17:41,Medication Error,3,Emergency,Hypertension,Cleanliness,Transport Issues,FALSE,12476,6
+263,Other,Orthopedics,04-06-2024,09-06-2024,16:21,14:50,17:04,17:34,None,2,Urgent,Hypertension,Facilities,Forgot,FALSE,16690,40
+264,Other,Pediatrics,03-01-2024,06-01-2024,13:53,16:33,16:59,17:21,Staff Behavior,1,Urgent,Asthma,Wait Time,Transport Issues,TRUE,6475,2
+265,Female,Oncology,09-07-2024,16-07-2024,17:38,14:39,14:56,15:17,Staff Behavior,1,Emergency,None,Staff Behavior,None,TRUE,6200,43
+266,Male,General Medicine,04-09-2024,08-09-2024,14:04,11:16,14:38,17:26,None,4,Non-Urgent,Diabetes,Cleanliness,Health Condition,FALSE,15909,36
+267,Other,Dermatology,22-08-2024,24-08-2024,18:00,14:44,15:05,15:19,Delay in Discharge,4,Emergency,Hypertension,Staff Behavior,Health Condition,FALSE,13253,47
+268,Female,Oncology,07-02-2024,09-02-2024,14:11,10:13,13:06,15:13,None,1,Urgent,Diabetes,Facilities,Forgot,FALSE,11365,18
+269,Male,Oncology,30-06-2024,09-07-2024,15:40,14:40,16:46,16:57,Medication Error,2,Non-Urgent,None,Wait Time,Transport Issues,FALSE,5157,28
+270,Other,Neurology,03-09-2024,10-09-2024,13:59,14:38,14:57,15:49,Medication Error,5,Non-Urgent,Asthma,Staff Behavior,Forgot,TRUE,6544,18
+271,Other,Cardiology,22-02-2024,29-02-2024,10:01,16:45,17:13,18:40,Billing Issue,2,Emergency,Diabetes,Cleanliness,Transport Issues,FALSE,11419,13
+272,Male,Orthopedics,21-02-2024,01-03-2024,15:36,16:33,17:52,18:11,Staff Behavior,1,Urgent,Diabetes,Staff Behavior,Health Condition,TRUE,17759,23
+273,Other,Pediatrics,28-06-2024,01-07-2024,17:24,10:32,17:09,17:32,None,5,Urgent,Diabetes,Facilities,Transport Issues,FALSE,8928,2
+274,Female,Dermatology,04-05-2024,11-05-2024,12:29,12:09,13:14,17:59,Delay in Discharge,5,Emergency,None,Staff Behavior,Transport Issues,TRUE,10190,26
+275,Male,Oncology,13-04-2024,16-04-2024,16:46,15:08,16:03,18:53,Staff Behavior,1,Urgent,Hypertension,Wait Time,None,FALSE,5388,39
+276,Female,Dermatology,10-01-2024,14-01-2024,16:00,08:45,11:12,11:33,Medication Error,1,Emergency,Heart Disease,Communication,None,TRUE,16838,25
+277,Other,Neurology,18-09-2024,20-09-2024,13:31,14:29,16:08,17:51,Billing Issue,4,Non-Urgent,Diabetes,Facilities,Health Condition,FALSE,12211,23
+278,Other,Oncology,24-05-2024,01-06-2024,18:13,12:44,12:58,14:37,Delay in Discharge,4,Emergency,Diabetes,Cleanliness,Transport Issues,FALSE,14987,44
+279,Male,Oncology,22-06-2024,29-06-2024,12:58,12:50,13:07,13:17,None,5,Emergency,Diabetes,Cleanliness,Health Condition,TRUE,19922,7
+280,Female,Neurology,10-10-2024,14-10-2024,14:41,10:29,17:39,17:57,Staff Behavior,1,Non-Urgent,Diabetes,Communication,Transport Issues,TRUE,12644,2
+281,Other,General Medicine,09-03-2024,13-03-2024,14:00,09:55,17:27,17:42,Medication Error,4,Emergency,Diabetes,Facilities,None,FALSE,7148,41
+282,Male,Oncology,21-10-2024,30-10-2024,12:06,14:00,14:12,15:13,Medication Error,3,Emergency,None,Communication,Health Condition,TRUE,9763,3
+283,Female,Dermatology,24-03-2024,02-04-2024,10:16,10:22,13:12,16:48,Staff Behavior,5,Emergency,Asthma,Staff Behavior,Health Condition,TRUE,10518,17
+284,Female,Orthopedics,24-09-2024,29-09-2024,15:12,14:55,15:20,17:39,Delay in Discharge,3,Non-Urgent,None,Staff Behavior,Forgot,TRUE,5240,14
+285,Other,Orthopedics,14-08-2024,21-08-2024,14:00,12:42,14:00,17:57,Delay in Discharge,1,Emergency,Heart Disease,Wait Time,Transport Issues,FALSE,19009,26
+286,Other,Dermatology,20-03-2024,30-03-2024,15:19,12:12,15:12,15:33,Medication Error,2,Urgent,None,Wait Time,Health Condition,FALSE,19219,27
+287,Male,Pediatrics,10-08-2024,17-08-2024,10:10,10:35,16:11,16:39,Delay in Discharge,3,Non-Urgent,Hypertension,Facilities,Forgot,TRUE,17056,46
+288,Female,Pediatrics,03-03-2024,09-03-2024,18:15,09:01,09:10,13:06,Delay in Discharge,3,Urgent,Heart Disease,Wait Time,Forgot,TRUE,7173,32
+289,Male,Oncology,17-10-2024,27-10-2024,11:12,14:04,14:14,15:14,Delay in Discharge,2,Urgent,Hypertension,Communication,Transport Issues,TRUE,8894,44
+290,Female,Neurology,25-01-2024,31-01-2024,13:21,09:50,15:25,18:54,None,2,Non-Urgent,Asthma,Communication,None,TRUE,9404,48
+291,Male,Oncology,08-07-2024,10-07-2024,17:38,11:19,15:59,16:19,Staff Behavior,5,Non-Urgent,None,Cleanliness,Forgot,TRUE,17181,22
+292,Male,Cardiology,07-07-2024,16-07-2024,16:33,14:48,15:20,17:22,Billing Issue,1,Non-Urgent,None,Wait Time,None,TRUE,19802,32
+293,Male,Neurology,10-08-2024,13-08-2024,11:24,14:41,15:04,16:46,Delay in Discharge,5,Non-Urgent,None,Communication,Health Condition,FALSE,12457,35
+294,Female,Cardiology,05-02-2024,15-02-2024,18:09,16:35,17:02,17:21,None,5,Emergency,Hypertension,Cleanliness,Transport Issues,TRUE,5545,34
+295,Other,Neurology,18-03-2024,20-03-2024,14:42,14:18,14:35,14:52,Delay in Discharge,3,Non-Urgent,Heart Disease,Staff Behavior,None,TRUE,11453,25
+296,Female,Pediatrics,11-07-2024,15-07-2024,14:36,08:42,12:01,18:27,Staff Behavior,5,Urgent,Hypertension,Cleanliness,Transport Issues,FALSE,12001,27
+297,Other,Oncology,10-06-2024,13-06-2024,17:07,09:06,13:23,16:17,Delay in Discharge,5,Non-Urgent,Asthma,Wait Time,Health Condition,TRUE,19176,46
+298,Other,General Medicine,14-07-2024,17-07-2024,16:47,10:39,12:47,15:22,Medication Error,2,Non-Urgent,Hypertension,Cleanliness,Transport Issues,FALSE,10299,25
+299,Female,Oncology,17-09-2024,21-09-2024,12:05,12:21,12:48,13:14,Billing Issue,4,Emergency,None,Communication,Health Condition,FALSE,18867,2
+300,Male,Neurology,04-03-2024,09-03-2024,13:51,10:05,13:35,15:17,Staff Behavior,5,Urgent,Asthma,Communication,Transport Issues,FALSE,18373,21
+301,Male,General Medicine,28-09-2024,02-10-2024,12:15,13:53,14:07,14:33,Medication Error,4,Non-Urgent,Asthma,Wait Time,Health Condition,TRUE,19811,45
+302,Male,Neurology,15-05-2024,25-05-2024,12:23,10:34,12:18,15:25,Staff Behavior,1,Emergency,Diabetes,Communication,Forgot,FALSE,6057,40
+303,Male,Cardiology,11-03-2024,16-03-2024,18:18,10:32,10:47,11:40,Medication Error,4,Urgent,None,Communication,None,TRUE,5571,46
+304,Male,Dermatology,31-03-2024,04-04-2024,14:23,09:36,15:59,16:22,Delay in Discharge,4,Non-Urgent,Heart Disease,Cleanliness,Health Condition,TRUE,8868,32
+305,Male,Pediatrics,21-08-2024,25-08-2024,15:17,08:07,09:38,15:40,Delay in Discharge,1,Emergency,Asthma,Wait Time,Forgot,TRUE,14102,47
+306,Male,Oncology,21-06-2024,26-06-2024,13:26,08:43,10:00,11:36,Billing Issue,2,Urgent,None,Communication,Transport Issues,TRUE,9490,11
+307,Male,Neurology,17-08-2024,22-08-2024,13:31,14:32,14:42,14:53,Delay in Discharge,1,Emergency,Hypertension,Cleanliness,Transport Issues,FALSE,15688,45
+308,Male,Cardiology,06-08-2024,10-08-2024,17:29,10:55,16:00,16:19,Staff Behavior,2,Urgent,Heart Disease,Wait Time,Transport Issues,FALSE,8104,23
+309,Female,Neurology,14-09-2024,23-09-2024,14:26,13:20,17:45,18:11,Staff Behavior,4,Non-Urgent,Asthma,Cleanliness,None,FALSE,11648,1
+310,Female,Cardiology,20-09-2024,27-09-2024,11:16,08:11,14:43,15:00,Delay in Discharge,2,Non-Urgent,Diabetes,Wait Time,None,FALSE,13350,32
+311,Female,General Medicine,07-03-2024,12-03-2024,14:09,15:49,16:18,16:37,Billing Issue,4,Emergency,Hypertension,Cleanliness,None,TRUE,10833,32
+312,Male,Cardiology,21-02-2024,28-02-2024,17:30,09:04,14:59,15:13,None,2,Urgent,Asthma,Communication,Transport Issues,FALSE,14302,9
+313,Female,General Medicine,11-02-2024,16-02-2024,16:38,09:30,11:22,16:40,Medication Error,2,Emergency,None,Staff Behavior,Forgot,TRUE,6680,30
+314,Female,Pediatrics,28-09-2024,04-10-2024,16:13,09:32,15:41,16:02,Medication Error,5,Emergency,Diabetes,Wait Time,Transport Issues,FALSE,6871,17
+315,Male,Oncology,29-02-2024,05-03-2024,15:49,09:35,10:32,17:50,None,5,Non-Urgent,Diabetes,Wait Time,Forgot,TRUE,19686,45
+316,Male,Dermatology,20-02-2024,29-02-2024,16:52,16:14,16:26,16:49,Billing Issue,4,Urgent,Asthma,Wait Time,Health Condition,TRUE,12556,43
+317,Male,General Medicine,05-03-2024,15-03-2024,11:13,12:49,13:02,13:28,Staff Behavior,3,Urgent,Diabetes,Cleanliness,None,FALSE,6074,47
+318,Female,Neurology,19-07-2024,26-07-2024,11:03,12:20,12:49,13:11,Billing Issue,3,Urgent,Diabetes,Facilities,Transport Issues,FALSE,9582,3
+319,Other,Oncology,30-07-2024,08-08-2024,13:14,08:49,10:31,13:32,Staff Behavior,1,Non-Urgent,None,Communication,Health Condition,FALSE,5119,10
+320,Male,Neurology,03-07-2024,13-07-2024,16:45,12:21,17:29,17:52,Billing Issue,2,Urgent,Heart Disease,Facilities,None,TRUE,12977,13
+321,Male,General Medicine,07-01-2024,13-01-2024,18:59,09:50,16:28,16:45,Medication Error,2,Non-Urgent,Asthma,Cleanliness,Transport Issues,TRUE,18523,13
+322,Other,Orthopedics,26-02-2024,05-03-2024,10:55,13:29,13:37,18:39,Medication Error,5,Urgent,Hypertension,Communication,Health Condition,FALSE,15716,3
+323,Other,General Medicine,01-01-2024,04-01-2024,12:15,14:21,14:37,14:37,Delay in Discharge,5,Urgent,Heart Disease,Wait Time,Health Condition,TRUE,7471,5
+324,Male,Pediatrics,06-10-2024,12-10-2024,17:49,15:19,15:38,15:53,None,2,Emergency,None,Communication,None,TRUE,9399,18
+325,Female,Orthopedics,21-02-2024,24-02-2024,12:13,09:47,10:18,14:16,Billing Issue,1,Urgent,Hypertension,Staff Behavior,Health Condition,FALSE,15557,17
+326,Male,Oncology,18-08-2024,27-08-2024,15:45,10:24,13:51,14:21,Billing Issue,5,Emergency,Hypertension,Staff Behavior,None,TRUE,18466,4
+327,Male,General Medicine,14-06-2024,22-06-2024,16:21,11:25,15:48,16:02,Delay in Discharge,3,Emergency,Hypertension,Wait Time,Health Condition,TRUE,10107,23
+328,Other,Cardiology,23-05-2024,31-05-2024,11:16,15:37,15:56,16:15,Billing Issue,4,Non-Urgent,None,Communication,Health Condition,FALSE,11517,25
+329,Other,Dermatology,03-04-2024,13-04-2024,18:29,16:39,17:27,17:37,Delay in Discharge,2,Non-Urgent,Asthma,Staff Behavior,Transport Issues,FALSE,17988,8
+330,Female,Dermatology,14-06-2024,24-06-2024,12:35,15:17,15:33,15:54,Medication Error,4,Non-Urgent,Heart Disease,Staff Behavior,Health Condition,TRUE,16592,40
+331,Female,Cardiology,27-06-2024,07-07-2024,17:39,12:21,12:37,12:52,Staff Behavior,4,Emergency,Asthma,Wait Time,None,FALSE,12307,8
+332,Female,Cardiology,07-01-2024,12-01-2024,13:51,09:12,10:09,13:16,Delay in Discharge,2,Urgent,Asthma,Wait Time,Forgot,FALSE,7712,18
+333,Other,Cardiology,15-04-2024,18-04-2024,16:41,13:23,14:01,18:38,Billing Issue,3,Urgent,Hypertension,Cleanliness,None,TRUE,8600,46
+334,Other,Cardiology,22-02-2024,28-02-2024,10:06,10:54,17:30,17:56,None,5,Urgent,Diabetes,Facilities,Forgot,TRUE,16972,11
+335,Female,General Medicine,22-03-2024,26-03-2024,17:19,14:07,14:37,15:03,None,5,Non-Urgent,None,Wait Time,None,FALSE,18865,23
+336,Female,Orthopedics,27-07-2024,03-08-2024,17:35,11:37,11:58,12:08,Staff Behavior,2,Urgent,Diabetes,Communication,Transport Issues,TRUE,13545,31
+337,Male,Neurology,18-06-2024,21-06-2024,16:21,08:55,09:37,12:03,Medication Error,1,Non-Urgent,Hypertension,Communication,None,TRUE,11006,35
+338,Other,Oncology,02-06-2024,04-06-2024,16:23,08:07,13:39,13:50,None,5,Emergency,Diabetes,Staff Behavior,None,TRUE,14510,1
+339,Female,General Medicine,11-01-2024,13-01-2024,11:07,10:31,12:50,18:18,Staff Behavior,5,Urgent,Heart Disease,Wait Time,Forgot,FALSE,12237,5
+340,Female,Orthopedics,28-06-2024,30-06-2024,11:04,08:32,12:03,12:22,Delay in Discharge,1,Emergency,Diabetes,Communication,Health Condition,TRUE,12107,11
+341,Other,General Medicine,25-10-2024,03-11-2024,15:35,16:38,17:00,17:38,Staff Behavior,4,Emergency,Diabetes,Cleanliness,Forgot,TRUE,6995,9
+342,Female,Dermatology,17-04-2024,25-04-2024,10:49,16:56,17:16,18:29,Staff Behavior,5,Urgent,Asthma,Communication,None,FALSE,13365,48
+343,Female,Pediatrics,15-08-2024,21-08-2024,18:56,10:27,10:41,18:27,None,4,Non-Urgent,None,Wait Time,None,FALSE,13931,38
+344,Other,Neurology,07-05-2024,12-05-2024,12:16,16:52,17:17,17:42,Billing Issue,4,Urgent,Heart Disease,Facilities,Health Condition,TRUE,10129,40
+345,Male,Oncology,15-01-2024,19-01-2024,15:48,10:58,17:44,17:56,None,5,Urgent,Heart Disease,Cleanliness,Forgot,FALSE,10407,45
+346,Female,Neurology,14-08-2024,22-08-2024,12:10,16:48,17:02,17:13,Delay in Discharge,2,Emergency,Heart Disease,Wait Time,Transport Issues,TRUE,11428,31
+347,Female,Dermatology,18-07-2024,28-07-2024,13:11,09:24,17:41,17:56,None,4,Urgent,Diabetes,Facilities,Transport Issues,FALSE,11523,32
+348,Female,Pediatrics,23-09-2024,02-10-2024,17:50,10:54,17:52,18:02,Medication Error,3,Non-Urgent,None,Cleanliness,Health Condition,TRUE,7879,11
+349,Other,Orthopedics,15-09-2024,20-09-2024,11:11,11:44,14:36,18:13,Staff Behavior,2,Urgent,None,Wait Time,Health Condition,TRUE,17541,12
+350,Female,Oncology,17-05-2024,23-05-2024,11:12,08:09,17:38,17:51,Billing Issue,5,Non-Urgent,Hypertension,Communication,Health Condition,FALSE,15972,17
+351,Male,Neurology,30-08-2024,09-09-2024,10:00,13:52,16:50,17:04,Staff Behavior,3,Urgent,Heart Disease,Facilities,Transport Issues,FALSE,5330,4
+352,Female,General Medicine,23-01-2024,29-01-2024,12:26,16:40,17:04,17:54,Staff Behavior,3,Emergency,Diabetes,Staff Behavior,Forgot,FALSE,7642,29
+353,Male,Cardiology,07-05-2024,11-05-2024,11:04,15:54,16:16,16:43,Staff Behavior,1,Non-Urgent,Hypertension,Staff Behavior,Forgot,FALSE,9063,24
+354,Other,Orthopedics,04-02-2024,13-02-2024,13:15,09:42,10:06,18:06,Delay in Discharge,5,Urgent,Hypertension,Facilities,Health Condition,FALSE,17363,1
+355,Female,Dermatology,26-10-2024,29-10-2024,16:39,10:11,10:30,10:57,None,3,Urgent,Heart Disease,Staff Behavior,Health Condition,FALSE,12442,48
+356,Male,Cardiology,06-03-2024,12-03-2024,11:43,09:08,13:05,16:59,Billing Issue,1,Emergency,Asthma,Wait Time,Transport Issues,FALSE,8040,27
+357,Female,General Medicine,27-05-2024,29-05-2024,14:55,15:31,15:38,15:57,Delay in Discharge,4,Urgent,Asthma,Staff Behavior,Forgot,FALSE,14809,26
+358,Female,Oncology,21-05-2024,26-05-2024,13:44,13:38,14:05,17:02,Staff Behavior,4,Urgent,Asthma,Wait Time,None,TRUE,9465,14
+359,Male,Cardiology,09-01-2024,18-01-2024,18:03,11:32,17:43,17:57,None,1,Emergency,None,Wait Time,Health Condition,TRUE,12074,34
+360,Male,Orthopedics,12-07-2024,15-07-2024,16:47,15:02,15:36,15:49,Delay in Discharge,5,Non-Urgent,Asthma,Staff Behavior,Transport Issues,FALSE,11024,13
+361,Other,Pediatrics,11-01-2024,17-01-2024,18:50,16:28,16:48,17:02,Delay in Discharge,1,Non-Urgent,Asthma,Communication,None,TRUE,15024,27
+362,Other,Dermatology,25-06-2024,01-07-2024,16:27,16:51,17:09,17:36,None,1,Emergency,Hypertension,Facilities,None,TRUE,15185,42
+363,Female,Neurology,31-03-2024,09-04-2024,17:03,12:50,15:40,16:06,Staff Behavior,3,Urgent,None,Facilities,None,TRUE,19642,38
+364,Other,Pediatrics,24-04-2024,28-04-2024,16:36,09:00,17:05,17:29,None,2,Non-Urgent,Asthma,Wait Time,Health Condition,FALSE,11068,2
+365,Female,Neurology,12-03-2024,20-03-2024,14:33,09:48,13:11,13:32,Medication Error,4,Urgent,Hypertension,Staff Behavior,None,FALSE,5817,19
+366,Male,Oncology,25-08-2024,31-08-2024,13:29,10:41,11:08,11:26,Staff Behavior,1,Urgent,Hypertension,Cleanliness,Forgot,TRUE,15858,35
+367,Female,Oncology,10-09-2024,16-09-2024,10:12,15:00,16:40,17:00,Staff Behavior,5,Urgent,Asthma,Cleanliness,Transport Issues,FALSE,10182,23
+368,Other,Cardiology,11-02-2024,21-02-2024,15:25,14:17,14:36,14:55,Delay in Discharge,5,Non-Urgent,Heart Disease,Wait Time,Forgot,TRUE,19901,45
+369,Other,Orthopedics,23-02-2024,26-02-2024,12:15,16:51,17:13,17:32,Delay in Discharge,1,Emergency,Diabetes,Facilities,Health Condition,TRUE,13882,45
+370,Female,Cardiology,04-10-2024,14-10-2024,14:46,14:01,14:30,14:49,Billing Issue,4,Emergency,Hypertension,Facilities,Forgot,FALSE,5510,5
+371,Male,Cardiology,21-06-2024,28-06-2024,16:51,11:46,11:56,15:04,None,2,Emergency,Hypertension,Staff Behavior,Transport Issues,FALSE,11695,15
+372,Male,Orthopedics,27-10-2024,03-11-2024,16:10,13:21,13:32,18:47,Billing Issue,1,Urgent,Heart Disease,Wait Time,None,TRUE,11710,15
+373,Male,Cardiology,04-08-2024,12-08-2024,11:13,14:48,16:18,18:52,Billing Issue,5,Non-Urgent,Hypertension,Wait Time,Transport Issues,TRUE,11534,39
+374,Male,Orthopedics,12-07-2024,14-07-2024,10:44,08:04,10:58,16:22,Medication Error,3,Urgent,Hypertension,Staff Behavior,Forgot,FALSE,13918,23
+375,Male,Dermatology,02-02-2024,06-02-2024,12:41,13:58,16:50,17:16,None,5,Non-Urgent,Diabetes,Facilities,Health Condition,FALSE,11164,37
+376,Female,General Medicine,02-09-2024,08-09-2024,16:17,13:32,14:07,16:21,Billing Issue,1,Urgent,None,Facilities,Transport Issues,TRUE,6038,39
+377,Female,Cardiology,23-05-2024,27-05-2024,12:21,16:43,17:13,17:33,Billing Issue,5,Emergency,Heart Disease,Cleanliness,Health Condition,TRUE,12599,4
+378,Other,Dermatology,02-01-2024,09-01-2024,16:20,11:59,12:24,12:35,None,4,Urgent,Hypertension,Wait Time,None,FALSE,16316,10
+379,Female,Oncology,24-02-2024,04-03-2024,12:24,16:00,16:18,18:54,Staff Behavior,3,Urgent,Heart Disease,Facilities,Forgot,TRUE,8767,9
+380,Male,Dermatology,11-08-2024,16-08-2024,10:15,14:13,14:25,14:46,Medication Error,4,Non-Urgent,Asthma,Communication,Transport Issues,FALSE,12737,20
+381,Male,Neurology,26-04-2024,29-04-2024,11:18,12:20,12:37,12:54,Medication Error,1,Non-Urgent,None,Cleanliness,Transport Issues,TRUE,17597,31
+382,Female,Cardiology,20-07-2024,24-07-2024,16:37,11:38,14:38,14:54,Staff Behavior,2,Non-Urgent,Heart Disease,Communication,Health Condition,FALSE,5140,15
+383,Other,Cardiology,05-07-2024,11-07-2024,10:48,12:59,12:59,14:14,None,1,Non-Urgent,Diabetes,Staff Behavior,Transport Issues,TRUE,16943,15
+384,Male,Dermatology,10-10-2024,13-10-2024,10:39,09:38,16:27,16:57,Staff Behavior,2,Emergency,None,Facilities,Forgot,TRUE,5747,13
+385,Male,Neurology,28-02-2024,01-03-2024,18:58,13:42,13:54,14:15,Medication Error,5,Emergency,None,Cleanliness,None,TRUE,7721,24
+386,Male,Pediatrics,10-05-2024,13-05-2024,11:35,14:27,15:44,16:14,Delay in Discharge,2,Emergency,Asthma,Facilities,Transport Issues,FALSE,6390,38
+387,Other,Oncology,23-02-2024,28-02-2024,15:09,11:31,17:06,17:17,Medication Error,4,Urgent,Hypertension,Wait Time,Forgot,FALSE,5195,11
+388,Male,Neurology,05-02-2024,09-02-2024,17:30,10:44,16:41,16:55,Billing Issue,1,Urgent,None,Wait Time,Health Condition,FALSE,14162,47
+389,Other,Neurology,27-02-2024,03-03-2024,18:16,08:26,13:49,17:40,Delay in Discharge,2,Urgent,Diabetes,Facilities,Forgot,FALSE,8578,38
+390,Female,Pediatrics,07-08-2024,15-08-2024,17:05,14:37,14:52,15:45,None,2,Emergency,Diabetes,Staff Behavior,None,FALSE,5662,33
+391,Female,Cardiology,20-08-2024,26-08-2024,10:32,11:21,11:46,12:07,Delay in Discharge,1,Non-Urgent,None,Staff Behavior,Health Condition,FALSE,17334,32
+392,Female,Cardiology,28-03-2024,05-04-2024,15:03,12:01,16:31,16:42,Delay in Discharge,2,Non-Urgent,Heart Disease,Communication,Health Condition,TRUE,8727,10
+393,Male,Neurology,27-08-2024,02-09-2024,12:01,11:23,11:53,18:12,Staff Behavior,5,Emergency,Heart Disease,Cleanliness,None,FALSE,8377,11
+394,Female,Neurology,23-02-2024,03-03-2024,10:01,10:32,17:06,17:20,Delay in Discharge,1,Emergency,Heart Disease,Cleanliness,None,TRUE,15520,28
+395,Male,Oncology,04-05-2024,12-05-2024,11:23,13:21,13:32,13:57,Delay in Discharge,2,Emergency,Heart Disease,Communication,Health Condition,TRUE,15673,43
+396,Male,General Medicine,15-04-2024,18-04-2024,14:48,14:16,14:43,15:04,Delay in Discharge,3,Non-Urgent,Heart Disease,Staff Behavior,None,TRUE,6988,33
+397,Male,Oncology,17-02-2024,23-02-2024,11:50,13:28,13:45,17:07,Delay in Discharge,1,Urgent,Diabetes,Facilities,Forgot,FALSE,19955,3
+398,Female,Oncology,01-05-2024,04-05-2024,11:54,09:46,16:19,16:33,None,1,Emergency,None,Wait Time,Forgot,TRUE,8316,36
+399,Other,Cardiology,09-03-2024,19-03-2024,18:45,12:09,12:49,13:09,Billing Issue,2,Non-Urgent,Heart Disease,Staff Behavior,None,TRUE,5807,29
+400,Female,Pediatrics,07-05-2024,12-05-2024,15:01,08:01,14:54,15:14,Staff Behavior,4,Emergency,Hypertension,Communication,Forgot,TRUE,11517,38
+401,Other,Orthopedics,27-05-2024,03-06-2024,14:01,12:18,12:39,13:05,Medication Error,3,Emergency,Asthma,Facilities,Transport Issues,FALSE,15587,11
+402,Other,General Medicine,02-08-2024,12-08-2024,16:11,16:04,16:28,16:53,Medication Error,5,Urgent,None,Cleanliness,Forgot,TRUE,5510,2
+403,Other,Dermatology,14-06-2024,23-06-2024,12:19,12:12,15:39,17:34,Medication Error,5,Non-Urgent,Diabetes,Wait Time,None,TRUE,16799,12
+404,Female,Oncology,08-06-2024,13-06-2024,10:31,14:02,17:40,17:53,Delay in Discharge,2,Non-Urgent,None,Facilities,None,FALSE,9286,46
+405,Other,Dermatology,14-04-2024,19-04-2024,11:00,08:28,14:48,15:04,Staff Behavior,2,Urgent,Heart Disease,Facilities,Transport Issues,FALSE,11446,10
+406,Male,General Medicine,07-06-2024,17-06-2024,18:16,16:55,17:09,17:30,Staff Behavior,4,Urgent,Diabetes,Cleanliness,None,TRUE,10879,26
+407,Female,Cardiology,16-07-2024,19-07-2024,10:08,12:14,12:44,14:27,Staff Behavior,4,Non-Urgent,None,Wait Time,Health Condition,TRUE,9363,47
+408,Male,Cardiology,17-07-2024,26-07-2024,13:32,15:44,16:06,16:26,Delay in Discharge,3,Non-Urgent,None,Wait Time,Transport Issues,FALSE,10521,39
+409,Other,Oncology,06-06-2024,10-06-2024,16:46,14:54,15:11,15:51,None,5,Non-Urgent,Asthma,Communication,None,FALSE,17539,11
+410,Female,General Medicine,12-01-2024,14-01-2024,17:21,15:23,15:52,16:18,Medication Error,4,Urgent,Diabetes,Facilities,Transport Issues,FALSE,11394,37
+411,Other,Cardiology,09-04-2024,11-04-2024,13:29,12:42,13:12,18:38,None,5,Urgent,Hypertension,Facilities,Forgot,FALSE,13359,17
+412,Female,Orthopedics,28-07-2024,03-08-2024,13:59,13:00,13:28,15:02,Medication Error,5,Non-Urgent,Heart Disease,Cleanliness,Transport Issues,TRUE,9417,8
+413,Other,Cardiology,27-09-2024,30-09-2024,12:59,14:28,16:21,16:41,Medication Error,4,Emergency,Diabetes,Communication,Forgot,TRUE,7584,37
+414,Female,General Medicine,14-08-2024,18-08-2024,17:12,08:26,17:52,18:14,Delay in Discharge,2,Non-Urgent,Diabetes,Wait Time,None,TRUE,11461,39
+415,Female,Oncology,10-10-2024,14-10-2024,12:27,08:32,17:50,18:02,Billing Issue,4,Non-Urgent,Hypertension,Wait Time,Forgot,TRUE,10959,45
+416,Female,Neurology,18-07-2024,21-07-2024,15:45,11:36,11:56,16:10,Billing Issue,5,Non-Urgent,Diabetes,Wait Time,Health Condition,FALSE,6864,39
+417,Female,Neurology,25-05-2024,31-05-2024,15:08,13:55,14:12,18:02,Delay in Discharge,2,Non-Urgent,Heart Disease,Facilities,Forgot,TRUE,10141,38
+418,Male,Dermatology,06-08-2024,13-08-2024,15:28,13:52,14:46,18:42,Staff Behavior,4,Emergency,Hypertension,Staff Behavior,Transport Issues,FALSE,17958,39
+419,Male,Dermatology,30-03-2024,04-04-2024,16:09,15:06,15:21,16:33,Billing Issue,1,Emergency,None,Wait Time,Transport Issues,TRUE,19675,20
+420,Female,Cardiology,09-04-2024,18-04-2024,13:13,12:35,12:50,13:08,Staff Behavior,3,Urgent,Heart Disease,Facilities,Health Condition,FALSE,11655,37
+421,Female,Orthopedics,24-02-2024,05-03-2024,16:21,14:53,16:01,16:21,None,4,Non-Urgent,Hypertension,Staff Behavior,Health Condition,TRUE,7156,27
+422,Other,Cardiology,29-06-2024,04-07-2024,18:52,11:51,16:07,18:06,Staff Behavior,1,Emergency,Asthma,Wait Time,Forgot,TRUE,6294,27
+423,Female,General Medicine,12-02-2024,19-02-2024,11:52,08:49,14:31,14:55,Billing Issue,5,Urgent,Diabetes,Facilities,Health Condition,FALSE,10254,45
+424,Other,Dermatology,20-05-2024,30-05-2024,13:54,11:53,14:58,15:10,Staff Behavior,2,Non-Urgent,Hypertension,Communication,Transport Issues,TRUE,11423,8
+425,Female,Neurology,04-07-2024,09-07-2024,10:30,09:39,11:21,11:53,Staff Behavior,1,Non-Urgent,Diabetes,Facilities,Transport Issues,TRUE,18778,46
+426,Other,Cardiology,05-07-2024,07-07-2024,17:17,08:50,11:49,12:18,Billing Issue,1,Emergency,Asthma,Cleanliness,Health Condition,FALSE,5987,27
+427,Other,Pediatrics,31-07-2024,08-08-2024,12:12,12:30,12:56,18:45,Staff Behavior,5,Non-Urgent,None,Facilities,None,TRUE,18515,20
+428,Male,Orthopedics,15-05-2024,19-05-2024,15:12,15:28,15:43,15:55,None,2,Urgent,Hypertension,Staff Behavior,Health Condition,TRUE,8366,18
+429,Female,Oncology,30-08-2024,06-09-2024,10:56,08:08,10:03,10:38,Staff Behavior,3,Urgent,Diabetes,Staff Behavior,Transport Issues,FALSE,6240,29
+430,Other,Orthopedics,25-04-2024,27-04-2024,14:39,11:12,15:20,17:08,Delay in Discharge,3,Urgent,Asthma,Communication,Forgot,FALSE,19377,42
+431,Female,Cardiology,29-04-2024,03-05-2024,11:47,10:34,14:28,14:44,Billing Issue,3,Non-Urgent,Heart Disease,Communication,Health Condition,FALSE,18044,34
+432,Other,Neurology,16-02-2024,25-02-2024,16:12,16:33,16:44,16:58,None,4,Urgent,Heart Disease,Cleanliness,Forgot,FALSE,9092,9
+433,Male,General Medicine,30-03-2024,05-04-2024,12:40,11:40,13:13,15:25,Delay in Discharge,5,Non-Urgent,Diabetes,Cleanliness,Health Condition,TRUE,19460,8
+434,Male,Orthopedics,23-02-2024,04-03-2024,14:19,11:55,13:38,13:54,Staff Behavior,2,Emergency,Heart Disease,Communication,Health Condition,FALSE,18634,32
+435,Female,General Medicine,11-04-2024,13-04-2024,12:52,10:05,10:22,13:53,Staff Behavior,1,Emergency,Diabetes,Staff Behavior,None,FALSE,9646,4
+436,Other,Cardiology,11-02-2024,20-02-2024,12:15,15:57,16:38,17:04,Billing Issue,4,Non-Urgent,Heart Disease,Cleanliness,None,FALSE,6531,8
+437,Other,Cardiology,08-07-2024,16-07-2024,12:12,10:10,12:10,17:10,Delay in Discharge,5,Emergency,Heart Disease,Facilities,None,TRUE,15802,24
+438,Male,Pediatrics,26-04-2024,06-05-2024,15:04,16:20,16:38,16:55,None,3,Urgent,Hypertension,Communication,Health Condition,FALSE,12745,43
+439,Male,General Medicine,06-05-2024,11-05-2024,10:29,16:28,17:19,17:46,Medication Error,4,Emergency,Hypertension,Staff Behavior,Health Condition,FALSE,15692,2
+440,Other,Pediatrics,16-05-2024,23-05-2024,13:30,15:35,16:03,16:24,Billing Issue,3,Urgent,Heart Disease,Staff Behavior,Transport Issues,TRUE,11112,28
+441,Female,General Medicine,01-11-2024,03-11-2024,17:45,14:31,14:43,15:08,Staff Behavior,4,Non-Urgent,Heart Disease,Staff Behavior,Forgot,FALSE,7627,41
+442,Male,Pediatrics,20-06-2024,30-06-2024,16:31,08:42,16:36,16:53,None,4,Emergency,Hypertension,Staff Behavior,Forgot,TRUE,10610,28
+443,Female,Cardiology,20-01-2024,29-01-2024,17:11,12:06,14:35,18:14,Staff Behavior,4,Emergency,Asthma,Facilities,Forgot,FALSE,11707,39
+444,Female,Orthopedics,06-07-2024,12-07-2024,13:07,08:57,13:17,13:39,Delay in Discharge,2,Urgent,Asthma,Wait Time,Forgot,FALSE,10442,37
+445,Male,General Medicine,09-09-2024,11-09-2024,16:47,14:32,14:58,17:16,Billing Issue,5,Urgent,None,Cleanliness,Health Condition,TRUE,7701,3
+446,Female,Cardiology,08-04-2024,10-04-2024,14:47,09:31,16:52,17:02,None,3,Non-Urgent,None,Staff Behavior,Health Condition,FALSE,11542,36
+447,Female,Neurology,04-04-2024,14-04-2024,16:45,13:56,14:11,17:38,Staff Behavior,5,Urgent,None,Staff Behavior,Transport Issues,FALSE,18421,33
+448,Female,Orthopedics,06-04-2024,10-04-2024,15:07,09:18,11:20,11:47,Staff Behavior,1,Non-Urgent,Asthma,Facilities,Forgot,TRUE,10094,45
+449,Female,General Medicine,14-03-2024,17-03-2024,13:24,11:09,11:28,16:03,Delay in Discharge,1,Urgent,Heart Disease,Communication,Health Condition,TRUE,18554,11
+450,Female,General Medicine,17-02-2024,19-02-2024,11:26,08:05,13:19,14:48,Delay in Discharge,3,Urgent,None,Communication,Forgot,FALSE,10492,37
+451,Male,Oncology,22-03-2024,29-03-2024,10:48,16:00,16:27,16:54,None,5,Urgent,None,Cleanliness,Transport Issues,TRUE,19556,37
+452,Female,Dermatology,16-10-2024,20-10-2024,18:12,09:09,11:18,14:10,Delay in Discharge,1,Non-Urgent,Heart Disease,Facilities,Health Condition,FALSE,8913,13
+453,Other,Oncology,10-05-2024,13-05-2024,11:29,09:14,11:50,16:55,Delay in Discharge,1,Non-Urgent,Hypertension,Cleanliness,Forgot,TRUE,8377,29
+454,Female,General Medicine,10-04-2024,12-04-2024,11:38,13:03,13:20,17:19,None,2,Urgent,Asthma,Wait Time,Health Condition,FALSE,15591,30
+455,Other,Orthopedics,13-07-2024,22-07-2024,17:26,15:54,16:05,16:16,Staff Behavior,2,Non-Urgent,Asthma,Cleanliness,Forgot,FALSE,16798,48
+456,Other,General Medicine,07-06-2024,17-06-2024,13:30,14:04,14:23,14:45,None,4,Non-Urgent,None,Communication,Transport Issues,TRUE,11886,33
+457,Female,Neurology,02-07-2024,09-07-2024,12:40,10:23,10:43,18:18,None,2,Urgent,Heart Disease,Cleanliness,Health Condition,FALSE,17682,23
+458,Other,Pediatrics,03-02-2024,09-02-2024,12:02,11:28,14:35,17:58,Delay in Discharge,2,Non-Urgent,Asthma,Facilities,None,FALSE,11220,19
+459,Female,Orthopedics,21-06-2024,27-06-2024,15:19,14:33,14:50,17:43,Staff Behavior,1,Emergency,Hypertension,Cleanliness,Health Condition,FALSE,6516,5
+460,Other,Dermatology,30-05-2024,05-06-2024,11:11,08:17,10:13,12:03,Medication Error,3,Non-Urgent,Hypertension,Communication,Health Condition,TRUE,19834,47
+461,Female,Dermatology,24-02-2024,01-03-2024,10:44,10:54,13:54,16:13,Delay in Discharge,2,Non-Urgent,Diabetes,Cleanliness,None,TRUE,8616,40
+462,Male,Oncology,02-04-2024,07-04-2024,16:51,08:36,10:33,11:07,Delay in Discharge,2,Urgent,Diabetes,Staff Behavior,None,FALSE,11975,45
+463,Male,Oncology,08-05-2024,16-05-2024,17:42,13:35,14:03,14:29,Delay in Discharge,2,Emergency,Asthma,Cleanliness,None,TRUE,14550,4
+464,Other,Oncology,01-02-2024,09-02-2024,16:56,13:06,17:59,18:23,Billing Issue,1,Urgent,Hypertension,Facilities,None,FALSE,8866,14
+465,Other,Dermatology,03-07-2024,08-07-2024,13:53,16:00,16:20,16:48,Medication Error,4,Non-Urgent,Diabetes,Facilities,Transport Issues,TRUE,6660,14
+466,Male,Oncology,17-06-2024,26-06-2024,18:21,12:17,12:41,18:35,Billing Issue,4,Non-Urgent,Diabetes,Cleanliness,Forgot,FALSE,17591,19
+467,Male,Oncology,03-06-2024,09-06-2024,10:58,14:07,17:44,18:57,Medication Error,2,Non-Urgent,Heart Disease,Communication,Forgot,FALSE,19741,34
+468,Female,Neurology,06-05-2024,16-05-2024,12:55,08:24,10:50,17:03,Staff Behavior,3,Urgent,Hypertension,Communication,Health Condition,TRUE,9841,10
+469,Male,Cardiology,05-06-2024,09-06-2024,16:33,13:15,13:28,13:39,Medication Error,5,Non-Urgent,Asthma,Cleanliness,Health Condition,FALSE,6735,13
+470,Male,Cardiology,04-02-2024,13-02-2024,10:59,09:41,15:07,15:17,Billing Issue,4,Urgent,Heart Disease,Wait Time,Health Condition,TRUE,16608,23
+471,Other,Cardiology,23-01-2024,25-01-2024,15:25,14:50,15:08,15:37,None,3,Emergency,Diabetes,Communication,Transport Issues,TRUE,18333,36
+472,Male,Cardiology,30-01-2024,05-02-2024,13:55,10:41,11:28,11:58,Billing Issue,2,Urgent,Hypertension,Communication,None,FALSE,7758,27
+473,Female,General Medicine,29-01-2024,01-02-2024,18:12,14:06,15:05,18:35,Billing Issue,5,Non-Urgent,Hypertension,Communication,Forgot,FALSE,6725,1
+474,Female,General Medicine,25-07-2024,27-07-2024,11:34,08:26,09:40,14:46,None,5,Urgent,Asthma,Cleanliness,Forgot,TRUE,16249,37
+475,Other,Dermatology,18-01-2024,26-01-2024,18:14,15:33,15:33,15:54,Delay in Discharge,2,Emergency,Asthma,Cleanliness,None,TRUE,17259,35
+476,Male,Pediatrics,14-09-2024,19-09-2024,12:27,12:44,13:52,14:20,Delay in Discharge,3,Emergency,None,Staff Behavior,Forgot,FALSE,17192,16
+477,Male,Oncology,02-08-2024,04-08-2024,11:03,12:10,12:23,15:24,Billing Issue,5,Emergency,Heart Disease,Cleanliness,Transport Issues,TRUE,8777,48
+478,Other,General Medicine,26-08-2024,28-08-2024,15:28,12:55,17:15,17:45,Medication Error,5,Urgent,Hypertension,Staff Behavior,Health Condition,TRUE,6230,1
+479,Female,Dermatology,03-07-2024,07-07-2024,13:59,10:59,12:16,15:53,Medication Error,2,Non-Urgent,Asthma,Wait Time,Forgot,TRUE,10060,38
+480,Female,Oncology,04-07-2024,14-07-2024,12:29,09:33,12:45,15:13,Staff Behavior,5,Non-Urgent,Asthma,Communication,Health Condition,TRUE,6019,22
+481,Female,Neurology,06-04-2024,11-04-2024,16:11,13:27,14:09,14:22,Medication Error,4,Emergency,None,Communication,Health Condition,FALSE,18062,24
+482,Female,Oncology,08-08-2024,15-08-2024,13:42,15:01,15:13,15:27,None,3,Non-Urgent,None,Facilities,Forgot,FALSE,19802,9
+483,Male,Cardiology,16-06-2024,19-06-2024,10:38,09:57,11:45,16:24,None,2,Urgent,None,Staff Behavior,Transport Issues,FALSE,11327,48
+484,Female,Neurology,01-05-2024,03-05-2024,14:14,08:43,16:23,16:49,Billing Issue,3,Emergency,Hypertension,Wait Time,Transport Issues,FALSE,13266,43
+485,Female,Dermatology,05-05-2024,15-05-2024,10:19,14:22,16:48,18:09,Medication Error,5,Non-Urgent,Diabetes,Staff Behavior,Transport Issues,TRUE,19175,1
+486,Other,Neurology,09-03-2024,14-03-2024,15:50,15:10,15:37,17:43,Delay in Discharge,3,Emergency,Diabetes,Staff Behavior,Health Condition,TRUE,11435,39
+487,Female,Cardiology,04-07-2024,11-07-2024,14:24,14:50,15:05,15:16,Staff Behavior,1,Urgent,Heart Disease,Cleanliness,Transport Issues,TRUE,8221,30
+488,Female,Cardiology,25-09-2024,27-09-2024,17:02,10:25,16:03,16:20,None,1,Non-Urgent,None,Cleanliness,Transport Issues,FALSE,8374,29
+489,Female,General Medicine,27-10-2024,04-11-2024,18:31,08:03,16:16,16:36,Medication Error,3,Non-Urgent,Diabetes,Staff Behavior,Transport Issues,TRUE,10852,31
+490,Male,Orthopedics,15-07-2024,20-07-2024,16:43,09:03,11:34,12:10,Staff Behavior,3,Non-Urgent,Asthma,Staff Behavior,Forgot,TRUE,13763,41
+491,Female,Cardiology,13-06-2024,20-06-2024,11:54,14:45,15:05,15:20,Medication Error,3,Urgent,Hypertension,Cleanliness,Transport Issues,TRUE,14147,14
+492,Male,Cardiology,21-04-2024,24-04-2024,14:42,09:08,10:26,14:23,Billing Issue,3,Emergency,Hypertension,Facilities,None,FALSE,15483,7
+493,Other,Cardiology,07-08-2024,16-08-2024,14:21,08:29,09:20,13:23,Medication Error,4,Non-Urgent,Diabetes,Communication,None,FALSE,19018,45
+494,Male,Cardiology,17-04-2024,25-04-2024,18:39,15:56,16:19,17:15,Staff Behavior,4,Non-Urgent,None,Staff Behavior,Forgot,FALSE,6913,21
+495,Female,Dermatology,14-03-2024,22-03-2024,10:16,09:56,10:23,10:50,Billing Issue,3,Emergency,Heart Disease,Cleanliness,None,FALSE,13897,44
+496,Female,Orthopedics,03-07-2024,05-07-2024,12:39,09:40,12:56,18:51,Billing Issue,4,Emergency,Heart Disease,Wait Time,Transport Issues,FALSE,19134,11
+497,Female,Oncology,18-05-2024,21-05-2024,13:51,15:00,15:14,15:40,Delay in Discharge,2,Emergency,Asthma,Staff Behavior,None,TRUE,14391,41
+498,Female,Neurology,03-04-2024,05-04-2024,14:58,14:00,15:21,17:22,Medication Error,2,Non-Urgent,None,Cleanliness,Forgot,TRUE,17393,21
+499,Male,Cardiology,08-07-2024,15-07-2024,10:01,09:40,10:24,18:35,Delay in Discharge,3,Emergency,None,Staff Behavior,Transport Issues,FALSE,17994,37
+500,Other,Neurology,23-06-2024,25-06-2024,16:50,10:38,13:39,13:59,Delay in Discharge,1,Urgent,Hypertension,Wait Time,None,FALSE,17231,27
+501,Female,Cardiology,09-04-2024,19-04-2024,16:54,16:59,17:38,17:48,Medication Error,2,Urgent,Diabetes,Facilities,Forgot,TRUE,19939,42
+502,Male,Oncology,30-01-2024,04-02-2024,18:59,11:37,14:13,18:20,Staff Behavior,3,Emergency,Asthma,Wait Time,Forgot,FALSE,11534,38
+503,Other,Orthopedics,07-03-2024,12-03-2024,12:19,15:59,16:20,17:54,None,3,Urgent,Diabetes,Staff Behavior,Transport Issues,FALSE,6299,30
+504,Female,Oncology,17-03-2024,26-03-2024,13:49,15:53,17:25,17:49,Staff Behavior,5,Emergency,Heart Disease,Staff Behavior,Transport Issues,TRUE,5482,17
+505,Male,Oncology,30-03-2024,07-04-2024,18:21,10:58,11:14,13:38,Delay in Discharge,4,Urgent,Heart Disease,Cleanliness,Transport Issues,TRUE,7118,2
+506,Other,Orthopedics,04-07-2024,10-07-2024,15:27,12:26,16:54,18:37,Billing Issue,3,Urgent,Hypertension,Facilities,None,FALSE,6300,28
+507,Other,Neurology,23-09-2024,30-09-2024,12:27,13:29,14:31,14:45,Billing Issue,3,Urgent,Hypertension,Cleanliness,Health Condition,FALSE,15721,27
+508,Female,Neurology,04-04-2024,06-04-2024,18:27,16:32,16:44,17:11,Staff Behavior,2,Non-Urgent,Heart Disease,Facilities,None,FALSE,13102,7
+509,Male,General Medicine,07-01-2024,12-01-2024,10:07,12:00,17:00,17:17,Medication Error,2,Emergency,None,Facilities,None,TRUE,11151,6
+510,Female,Pediatrics,10-02-2024,13-02-2024,11:32,13:47,13:58,16:28,Medication Error,2,Emergency,Heart Disease,Staff Behavior,Forgot,FALSE,11655,17
+511,Male,Neurology,12-03-2024,17-03-2024,18:34,11:02,15:27,15:50,Delay in Discharge,3,Emergency,Diabetes,Staff Behavior,Transport Issues,FALSE,18273,27
+512,Male,Neurology,25-01-2024,28-01-2024,15:30,10:54,12:56,13:23,Staff Behavior,5,Non-Urgent,Asthma,Wait Time,Forgot,TRUE,18149,12
+513,Other,Neurology,28-01-2024,01-02-2024,11:58,15:40,16:43,17:12,Staff Behavior,1,Urgent,Hypertension,Cleanliness,None,FALSE,17173,33
+514,Male,Dermatology,01-04-2024,06-04-2024,17:28,08:44,11:28,18:57,Billing Issue,1,Non-Urgent,Hypertension,Communication,Transport Issues,FALSE,12549,35
+515,Male,General Medicine,26-09-2024,04-10-2024,12:47,08:53,13:42,13:52,Medication Error,4,Non-Urgent,Asthma,Communication,None,TRUE,9606,12
+516,Female,Pediatrics,01-04-2024,09-04-2024,17:06,15:29,15:44,16:09,Medication Error,2,Non-Urgent,Diabetes,Facilities,Transport Issues,FALSE,11150,4
+517,Male,General Medicine,19-08-2024,28-08-2024,14:01,12:48,15:42,16:04,None,5,Non-Urgent,Hypertension,Facilities,Transport Issues,TRUE,17531,27
+518,Male,Orthopedics,13-03-2024,18-03-2024,17:03,15:23,15:43,15:58,None,5,Emergency,Hypertension,Communication,Health Condition,TRUE,9575,48
+519,Female,Dermatology,01-03-2024,09-03-2024,17:09,10:55,15:25,15:42,None,3,Non-Urgent,Asthma,Staff Behavior,None,TRUE,16755,14
+520,Other,Dermatology,02-05-2024,11-05-2024,17:26,12:57,13:30,14:42,None,1,Urgent,Hypertension,Cleanliness,Forgot,TRUE,13494,23
+521,Male,Oncology,28-07-2024,06-08-2024,14:19,13:01,16:44,17:13,Billing Issue,1,Urgent,Diabetes,Staff Behavior,Health Condition,FALSE,14191,2
+522,Female,Oncology,20-04-2024,23-04-2024,14:00,15:36,15:59,16:27,Medication Error,2,Emergency,Asthma,Communication,None,TRUE,18917,33
+523,Female,Pediatrics,14-02-2024,19-02-2024,12:31,16:58,17:08,17:20,Billing Issue,3,Urgent,Hypertension,Wait Time,Health Condition,FALSE,10152,9
+524,Male,Orthopedics,29-04-2024,04-05-2024,18:43,09:00,12:36,18:18,Staff Behavior,3,Urgent,Hypertension,Facilities,Transport Issues,FALSE,11270,3
+525,Female,Dermatology,18-06-2024,28-06-2024,11:56,11:57,16:52,17:03,Billing Issue,4,Non-Urgent,Asthma,Facilities,Transport Issues,TRUE,14498,6
+526,Female,Oncology,19-10-2024,22-10-2024,14:24,16:13,16:36,16:55,Staff Behavior,2,Emergency,Hypertension,Communication,Health Condition,FALSE,12085,34
+527,Female,Neurology,17-04-2024,24-04-2024,18:15,16:27,16:42,17:09,Delay in Discharge,4,Non-Urgent,Heart Disease,Cleanliness,Forgot,FALSE,14020,22
+528,Female,Oncology,04-07-2024,14-07-2024,18:09,11:38,16:01,16:20,Billing Issue,3,Urgent,Asthma,Wait Time,Transport Issues,TRUE,6691,3
+529,Other,General Medicine,04-04-2024,07-04-2024,15:45,13:05,17:26,17:51,Billing Issue,1,Non-Urgent,Heart Disease,Cleanliness,Transport Issues,FALSE,16265,13
+530,Other,Pediatrics,28-07-2024,02-08-2024,11:42,13:55,14:09,14:38,Medication Error,4,Emergency,Asthma,Wait Time,Health Condition,TRUE,18715,18
+531,Female,Cardiology,27-07-2024,30-07-2024,13:27,08:02,09:01,16:35,None,1,Emergency,Diabetes,Staff Behavior,Transport Issues,FALSE,19847,29
+532,Female,General Medicine,18-01-2024,20-01-2024,17:28,15:15,15:26,15:40,Delay in Discharge,2,Urgent,Heart Disease,Wait Time,None,FALSE,16780,48
+533,Other,Orthopedics,19-08-2024,29-08-2024,12:49,08:31,13:13,14:39,Staff Behavior,4,Emergency,None,Wait Time,None,TRUE,17752,35
+534,Male,General Medicine,19-07-2024,24-07-2024,18:18,08:38,10:59,12:24,Medication Error,3,Urgent,Heart Disease,Wait Time,Health Condition,TRUE,11835,21
+535,Other,General Medicine,10-05-2024,17-05-2024,12:43,10:43,15:27,16:16,Medication Error,3,Emergency,None,Cleanliness,Transport Issues,FALSE,8846,42
+536,Female,Orthopedics,12-06-2024,17-06-2024,14:17,15:12,16:10,16:39,Medication Error,5,Non-Urgent,Hypertension,Facilities,Transport Issues,TRUE,12627,28
+537,Other,Orthopedics,24-02-2024,02-03-2024,17:12,14:00,16:46,16:58,None,2,Non-Urgent,Asthma,Cleanliness,Health Condition,FALSE,10246,10
+538,Other,Oncology,18-01-2024,26-01-2024,13:18,14:10,14:20,15:01,Medication Error,5,Urgent,None,Staff Behavior,Health Condition,TRUE,5901,13
+539,Female,Orthopedics,26-03-2024,05-04-2024,15:39,12:26,13:33,16:15,Billing Issue,5,Non-Urgent,Diabetes,Communication,Health Condition,FALSE,5477,24
+540,Other,Neurology,05-04-2024,09-04-2024,14:53,08:53,15:56,17:24,Delay in Discharge,3,Non-Urgent,Diabetes,Communication,Forgot,FALSE,19333,9
+541,Other,Neurology,31-07-2024,06-08-2024,11:05,12:16,15:06,15:16,Delay in Discharge,4,Urgent,Asthma,Facilities,Transport Issues,TRUE,8255,28
+542,Male,Pediatrics,13-02-2024,21-02-2024,12:48,15:11,15:39,16:06,Delay in Discharge,3,Non-Urgent,Diabetes,Facilities,Health Condition,TRUE,12747,13
+543,Other,Oncology,14-09-2024,22-09-2024,14:08,12:55,13:15,13:33,Delay in Discharge,4,Non-Urgent,Hypertension,Communication,None,FALSE,7442,6
+544,Other,Neurology,01-02-2024,05-02-2024,10:52,13:27,13:54,14:24,Medication Error,2,Non-Urgent,Hypertension,Cleanliness,None,TRUE,19046,12
+545,Female,Cardiology,09-09-2024,12-09-2024,10:16,14:53,15:22,15:48,Delay in Discharge,2,Non-Urgent,Hypertension,Cleanliness,Transport Issues,TRUE,17081,46
+546,Male,Dermatology,03-06-2024,13-06-2024,12:43,09:38,15:40,15:55,Medication Error,3,Non-Urgent,None,Wait Time,Health Condition,FALSE,5023,29
+547,Male,Dermatology,25-02-2024,03-03-2024,15:39,16:37,16:52,17:08,Billing Issue,4,Emergency,Asthma,Wait Time,Transport Issues,FALSE,17947,30
+548,Other,Oncology,26-09-2024,02-10-2024,11:38,11:35,11:59,12:27,Delay in Discharge,2,Non-Urgent,Asthma,Cleanliness,Transport Issues,TRUE,11578,17
+549,Male,Oncology,03-06-2024,11-06-2024,17:17,11:44,15:10,15:27,None,5,Emergency,Heart Disease,Cleanliness,Transport Issues,TRUE,19524,47
+550,Other,Pediatrics,06-10-2024,10-10-2024,10:53,11:03,14:22,14:50,Delay in Discharge,5,Emergency,Heart Disease,Staff Behavior,Transport Issues,FALSE,15050,33
+551,Male,Cardiology,29-09-2024,08-10-2024,11:31,14:42,15:04,17:50,Staff Behavior,4,Non-Urgent,Asthma,Cleanliness,Forgot,TRUE,19576,24
+552,Female,Cardiology,23-02-2024,26-02-2024,18:06,15:02,15:23,15:48,Delay in Discharge,3,Non-Urgent,Asthma,Cleanliness,Health Condition,TRUE,10416,29
+553,Male,General Medicine,25-02-2024,04-03-2024,11:19,08:20,11:40,15:17,None,3,Urgent,Heart Disease,Cleanliness,Forgot,TRUE,9979,39
+554,Male,Cardiology,01-11-2024,10-11-2024,14:25,16:07,16:33,16:53,Billing Issue,5,Urgent,None,Facilities,None,TRUE,6894,47
+555,Other,Neurology,31-03-2024,04-04-2024,15:18,09:18,11:24,16:57,Delay in Discharge,1,Urgent,Diabetes,Cleanliness,Forgot,FALSE,11116,24
+556,Female,Cardiology,13-03-2024,22-03-2024,17:21,09:35,11:28,11:56,Delay in Discharge,5,Urgent,None,Wait Time,Transport Issues,TRUE,12426,43
+557,Female,Oncology,22-10-2024,30-10-2024,11:58,15:27,15:53,16:04,Staff Behavior,2,Non-Urgent,Hypertension,Communication,Forgot,FALSE,12142,46
+558,Female,Oncology,17-02-2024,20-02-2024,15:54,10:06,10:28,18:25,Billing Issue,2,Emergency,Heart Disease,Staff Behavior,None,FALSE,19656,10
+559,Female,Cardiology,31-10-2024,03-11-2024,15:12,09:03,16:26,16:45,None,3,Urgent,Asthma,Facilities,Forgot,TRUE,15494,2
+560,Female,Cardiology,22-09-2024,02-10-2024,15:20,08:21,14:24,18:44,Staff Behavior,5,Urgent,None,Staff Behavior,Health Condition,FALSE,10021,3
+561,Other,Dermatology,22-08-2024,24-08-2024,18:30,16:19,16:31,17:59,Medication Error,5,Urgent,None,Cleanliness,Transport Issues,FALSE,19646,38
+562,Male,Pediatrics,04-05-2024,11-05-2024,15:09,15:35,15:46,17:55,Delay in Discharge,3,Urgent,Heart Disease,Wait Time,Forgot,FALSE,8233,22
+563,Male,Orthopedics,21-05-2024,29-05-2024,18:35,08:17,15:25,15:51,Billing Issue,3,Emergency,None,Staff Behavior,Health Condition,TRUE,13129,28
+564,Other,General Medicine,01-09-2024,10-09-2024,14:19,09:20,15:02,18:06,None,2,Non-Urgent,Diabetes,Cleanliness,Forgot,FALSE,9182,35
+565,Other,Cardiology,10-04-2024,12-04-2024,17:48,16:54,17:22,17:32,Billing Issue,1,Non-Urgent,None,Staff Behavior,None,FALSE,17992,44
+566,Female,Dermatology,27-09-2024,03-10-2024,11:47,08:33,10:17,16:20,Delay in Discharge,1,Non-Urgent,Asthma,Wait Time,Health Condition,FALSE,10158,7
+567,Other,Neurology,21-09-2024,01-10-2024,10:46,15:20,15:37,16:53,Medication Error,4,Urgent,Diabetes,Wait Time,Forgot,FALSE,12352,27
+568,Other,Pediatrics,05-08-2024,11-08-2024,15:12,13:10,13:32,13:58,None,5,Urgent,Heart Disease,Facilities,Forgot,FALSE,7688,38
+569,Other,Neurology,20-09-2024,22-09-2024,11:33,11:43,13:05,13:15,Delay in Discharge,3,Non-Urgent,None,Communication,Forgot,FALSE,7756,33
+570,Male,Oncology,23-03-2024,26-03-2024,18:25,14:20,14:30,18:56,Delay in Discharge,5,Urgent,Heart Disease,Wait Time,Health Condition,TRUE,13157,24
+571,Other,Cardiology,02-03-2024,11-03-2024,14:30,12:08,12:37,16:49,Delay in Discharge,1,Emergency,Diabetes,Communication,Health Condition,FALSE,15863,10
+572,Female,Cardiology,20-05-2024,26-05-2024,13:05,10:19,11:33,16:00,Medication Error,2,Emergency,Diabetes,Staff Behavior,None,FALSE,9368,28
+573,Other,Pediatrics,29-05-2024,08-06-2024,18:58,15:26,15:51,16:21,Delay in Discharge,1,Urgent,Asthma,Wait Time,Forgot,TRUE,13432,44
+574,Other,Cardiology,21-07-2024,24-07-2024,10:00,11:38,16:25,17:20,Staff Behavior,3,Urgent,Hypertension,Communication,Transport Issues,FALSE,8771,20
+575,Male,Neurology,06-05-2024,13-05-2024,16:54,10:50,16:22,16:50,Delay in Discharge,1,Urgent,None,Staff Behavior,None,TRUE,14664,34
+576,Other,Neurology,19-01-2024,29-01-2024,17:40,08:40,16:28,16:56,Medication Error,4,Urgent,Hypertension,Staff Behavior,Health Condition,TRUE,17576,29
+577,Male,Orthopedics,15-04-2024,18-04-2024,16:11,09:42,17:49,18:09,Staff Behavior,3,Non-Urgent,Heart Disease,Cleanliness,Forgot,FALSE,18239,28
+578,Other,Cardiology,19-06-2024,23-06-2024,18:15,16:57,17:14,17:36,None,1,Non-Urgent,None,Staff Behavior,Transport Issues,FALSE,15936,30
+579,Male,Pediatrics,22-08-2024,31-08-2024,16:56,08:17,16:04,17:24,Delay in Discharge,2,Urgent,Diabetes,Wait Time,Transport Issues,TRUE,18814,26
+580,Male,General Medicine,03-01-2024,07-01-2024,14:18,08:18,14:28,14:40,Medication Error,3,Urgent,Asthma,Facilities,Transport Issues,TRUE,18205,11
+581,Male,General Medicine,29-06-2024,08-07-2024,17:02,14:18,14:48,14:58,Billing Issue,4,Non-Urgent,None,Facilities,None,FALSE,8979,1
+582,Female,Dermatology,29-08-2024,04-09-2024,14:46,11:50,12:20,12:31,Billing Issue,5,Urgent,Diabetes,Communication,Health Condition,FALSE,14225,10
+583,Female,Orthopedics,04-01-2024,12-01-2024,14:38,11:31,14:17,14:26,Delay in Discharge,4,Emergency,Hypertension,Facilities,Health Condition,FALSE,19763,48
+584,Female,General Medicine,28-02-2024,01-03-2024,15:59,09:29,13:46,17:18,Medication Error,1,Non-Urgent,None,Wait Time,Forgot,FALSE,18971,37
+585,Male,Cardiology,11-06-2024,15-06-2024,18:05,08:14,17:05,17:30,Delay in Discharge,1,Non-Urgent,Hypertension,Communication,Transport Issues,FALSE,15156,45
+586,Other,Oncology,01-05-2024,03-05-2024,11:46,11:41,16:44,16:59,Delay in Discharge,4,Urgent,Hypertension,Wait Time,Transport Issues,FALSE,7420,41
+587,Male,Neurology,15-07-2024,17-07-2024,12:41,12:22,13:49,15:49,Billing Issue,4,Urgent,Heart Disease,Staff Behavior,Transport Issues,TRUE,17818,48
+588,Other,Cardiology,21-05-2024,30-05-2024,12:26,11:06,13:57,18:04,Medication Error,1,Urgent,Asthma,Cleanliness,Transport Issues,TRUE,8681,31
+589,Other,Dermatology,14-04-2024,19-04-2024,10:55,15:26,15:52,15:54,Staff Behavior,1,Urgent,Heart Disease,Facilities,Health Condition,FALSE,7743,31
+590,Other,Cardiology,18-04-2024,27-04-2024,10:14,08:34,11:51,17:43,Billing Issue,5,Urgent,Diabetes,Staff Behavior,Forgot,TRUE,10245,1
+591,Male,Orthopedics,21-07-2024,25-07-2024,18:14,15:02,15:07,15:32,Delay in Discharge,1,Emergency,Heart Disease,Staff Behavior,Health Condition,FALSE,19126,29
+592,Other,Oncology,20-03-2024,22-03-2024,16:27,10:28,14:59,15:20,Billing Issue,1,Non-Urgent,Heart Disease,Staff Behavior,Health Condition,TRUE,7715,5
+593,Female,Oncology,26-01-2024,02-02-2024,11:18,14:24,15:30,17:48,Staff Behavior,1,Urgent,Asthma,Facilities,None,TRUE,14968,12
+594,Female,Dermatology,07-10-2024,12-10-2024,17:52,10:06,15:43,16:12,None,1,Non-Urgent,Diabetes,Facilities,None,TRUE,12621,14
+595,Male,Dermatology,26-06-2024,03-07-2024,18:34,11:53,15:34,15:52,Delay in Discharge,5,Non-Urgent,Asthma,Facilities,Health Condition,TRUE,6251,39
+596,Other,Dermatology,05-08-2024,14-08-2024,11:10,15:43,16:04,16:28,Medication Error,5,Non-Urgent,Heart Disease,Wait Time,None,TRUE,11898,44
+597,Female,Neurology,23-08-2024,31-08-2024,11:40,08:00,15:42,16:31,Staff Behavior,5,Emergency,None,Communication,Health Condition,TRUE,6807,38
+598,Other,Cardiology,05-10-2024,11-10-2024,15:29,16:58,17:16,18:19,Billing Issue,4,Emergency,Hypertension,Wait Time,Transport Issues,FALSE,12632,2
+599,Male,Oncology,28-01-2024,05-02-2024,14:37,09:48,10:12,16:21,Billing Issue,4,Non-Urgent,Hypertension,Facilities,Forgot,FALSE,8529,6
+600,Female,Neurology,02-07-2024,12-07-2024,11:59,12:19,13:31,13:45,None,4,Urgent,None,Cleanliness,None,TRUE,19076,20
+601,Female,General Medicine,22-07-2024,24-07-2024,18:23,16:57,17:13,17:34,Delay in Discharge,5,Non-Urgent,Asthma,Cleanliness,Forgot,TRUE,18138,15
+602,Other,Dermatology,13-04-2024,15-04-2024,13:02,10:31,13:06,16:16,None,2,Emergency,Hypertension,Cleanliness,Transport Issues,TRUE,17011,30
+603,Other,Cardiology,30-03-2024,07-04-2024,18:49,15:00,15:03,16:16,Delay in Discharge,3,Emergency,Diabetes,Communication,None,TRUE,16120,27
+604,Female,Oncology,10-07-2024,20-07-2024,11:57,13:26,15:10,17:55,Staff Behavior,5,Emergency,Hypertension,Cleanliness,Forgot,FALSE,12295,31
+605,Other,Pediatrics,12-08-2024,15-08-2024,12:39,08:51,12:20,17:24,Medication Error,1,Emergency,Diabetes,Cleanliness,Forgot,FALSE,13604,42
+606,Other,Neurology,09-02-2024,17-02-2024,14:32,15:57,16:11,16:28,Billing Issue,5,Urgent,Diabetes,Communication,Forgot,TRUE,6332,15
+607,Other,Dermatology,08-09-2024,16-09-2024,13:49,13:58,14:09,14:28,Staff Behavior,1,Non-Urgent,Asthma,Cleanliness,None,FALSE,11661,24
+608,Female,Pediatrics,09-08-2024,14-08-2024,16:59,11:37,15:29,15:46,Billing Issue,3,Emergency,Hypertension,Facilities,Health Condition,FALSE,17193,14
+609,Male,General Medicine,24-01-2024,27-01-2024,13:04,16:23,16:33,17:05,Staff Behavior,5,Urgent,Diabetes,Staff Behavior,Transport Issues,FALSE,18504,41
+610,Male,Neurology,03-01-2024,08-01-2024,13:17,11:33,11:59,13:03,Staff Behavior,4,Urgent,Hypertension,Communication,None,FALSE,9036,43
+611,Other,Oncology,20-06-2024,26-06-2024,14:55,12:57,15:21,17:17,Medication Error,1,Emergency,Heart Disease,Communication,None,TRUE,7884,23
+612,Other,Neurology,04-04-2024,11-04-2024,17:44,11:45,16:40,17:54,Staff Behavior,1,Non-Urgent,Heart Disease,Cleanliness,None,TRUE,13278,23
+613,Other,Neurology,18-08-2024,20-08-2024,17:23,12:14,14:57,15:10,Staff Behavior,3,Emergency,None,Cleanliness,Health Condition,TRUE,11554,16
+614,Other,Dermatology,20-05-2024,22-05-2024,15:32,14:26,14:39,15:03,Billing Issue,2,Non-Urgent,Asthma,Staff Behavior,Transport Issues,FALSE,6771,15
+615,Female,Cardiology,08-08-2024,16-08-2024,16:44,09:15,17:24,17:25,Medication Error,5,Non-Urgent,Heart Disease,Communication,Transport Issues,FALSE,19898,37
+616,Female,Dermatology,12-07-2024,15-07-2024,13:25,14:56,15:24,15:39,Staff Behavior,4,Urgent,None,Communication,Forgot,FALSE,17400,6
+617,Other,Orthopedics,31-03-2024,04-04-2024,11:52,09:59,14:01,14:29,Billing Issue,1,Non-Urgent,Hypertension,Wait Time,Health Condition,FALSE,15044,36
+618,Female,Cardiology,23-06-2024,26-06-2024,14:52,14:32,15:01,15:15,Delay in Discharge,1,Emergency,None,Cleanliness,None,FALSE,18268,14
+619,Male,Dermatology,10-05-2024,20-05-2024,14:03,14:22,14:37,14:49,Delay in Discharge,1,Emergency,Diabetes,Wait Time,Transport Issues,FALSE,5407,20
+620,Male,Neurology,25-04-2024,05-05-2024,15:39,14:20,14:42,18:46,Medication Error,1,Non-Urgent,Diabetes,Wait Time,Health Condition,TRUE,14036,26
+621,Female,Pediatrics,05-05-2024,09-05-2024,14:39,09:52,16:27,16:38,Medication Error,2,Urgent,Diabetes,Cleanliness,Transport Issues,TRUE,18511,24
+622,Other,Neurology,11-08-2024,18-08-2024,14:46,12:44,14:42,15:06,Delay in Discharge,3,Non-Urgent,Heart Disease,Communication,Forgot,TRUE,13297,15
+623,Other,Oncology,22-10-2024,01-11-2024,14:54,09:31,15:10,15:22,Medication Error,4,Urgent,Asthma,Staff Behavior,Forgot,TRUE,11807,32
+624,Other,Pediatrics,25-10-2024,01-11-2024,16:59,11:07,11:52,17:02,Staff Behavior,5,Urgent,Diabetes,Staff Behavior,Transport Issues,TRUE,6091,19
+625,Other,Dermatology,23-02-2024,04-03-2024,16:35,13:36,17:01,17:31,Billing Issue,2,Emergency,None,Cleanliness,Transport Issues,FALSE,8214,21
+626,Other,Neurology,02-08-2024,12-08-2024,16:11,14:18,14:30,14:52,Staff Behavior,5,Non-Urgent,Heart Disease,Cleanliness,Transport Issues,TRUE,13266,17
+627,Female,Cardiology,15-04-2024,20-04-2024,12:37,11:03,11:16,11:16,Billing Issue,1,Emergency,Hypertension,Staff Behavior,Forgot,TRUE,10167,17
+628,Male,Orthopedics,07-07-2024,09-07-2024,10:42,12:06,12:23,18:46,None,2,Non-Urgent,None,Cleanliness,None,TRUE,19699,15
+629,Male,Neurology,14-04-2024,19-04-2024,10:18,13:10,17:28,17:52,None,3,Non-Urgent,None,Communication,Health Condition,TRUE,18277,6
+630,Female,General Medicine,12-09-2024,20-09-2024,13:18,13:19,13:47,18:54,Medication Error,3,Emergency,Diabetes,Staff Behavior,Transport Issues,TRUE,14508,47
+631,Male,Oncology,17-06-2024,24-06-2024,11:49,14:04,14:33,18:44,Staff Behavior,1,Non-Urgent,Diabetes,Cleanliness,Forgot,FALSE,11501,11
+632,Other,Cardiology,30-06-2024,02-07-2024,11:10,09:46,10:16,12:03,Medication Error,2,Non-Urgent,None,Facilities,None,FALSE,7243,13
+633,Male,Pediatrics,18-05-2024,27-05-2024,11:06,11:09,12:11,12:24,Delay in Discharge,3,Emergency,Heart Disease,Communication,Transport Issues,FALSE,12049,18
+634,Other,Oncology,11-07-2024,15-07-2024,10:40,15:35,15:48,15:58,None,5,Non-Urgent,None,Staff Behavior,Health Condition,FALSE,19762,28
+635,Female,Orthopedics,14-07-2024,23-07-2024,11:02,11:20,11:39,11:58,None,1,Non-Urgent,Heart Disease,Cleanliness,Health Condition,FALSE,19371,35
+636,Male,Cardiology,18-06-2024,27-06-2024,10:19,15:07,16:42,17:11,None,5,Urgent,Asthma,Staff Behavior,Forgot,TRUE,11942,37
+637,Male,General Medicine,23-09-2024,28-09-2024,12:11,16:24,16:43,17:01,Medication Error,1,Non-Urgent,Hypertension,Staff Behavior,Health Condition,FALSE,14138,30
+638,Male,Orthopedics,08-07-2024,16-07-2024,10:51,08:04,11:38,13:47,None,2,Emergency,Asthma,Communication,Transport Issues,FALSE,18207,14
+639,Female,Dermatology,05-01-2024,09-01-2024,16:07,11:39,11:51,18:53,Staff Behavior,5,Urgent,Asthma,Facilities,None,TRUE,11031,42
+640,Female,General Medicine,01-05-2024,11-05-2024,10:53,09:30,12:43,17:28,Medication Error,3,Emergency,Diabetes,Communication,Forgot,FALSE,5674,25
+641,Other,Pediatrics,07-05-2024,17-05-2024,15:00,12:40,13:22,18:44,Medication Error,3,Emergency,Diabetes,Facilities,Health Condition,TRUE,12525,3
+642,Female,Dermatology,08-06-2024,13-06-2024,17:06,16:17,16:28,16:43,Billing Issue,5,Emergency,Diabetes,Communication,None,FALSE,10794,29
+643,Other,Oncology,02-02-2024,10-02-2024,17:09,10:42,16:52,17:03,Billing Issue,3,Non-Urgent,Diabetes,Facilities,Transport Issues,FALSE,16624,19
+644,Female,Orthopedics,08-05-2024,16-05-2024,18:04,08:27,16:35,17:05,Delay in Discharge,1,Urgent,None,Cleanliness,Forgot,FALSE,13354,14
+645,Male,Cardiology,25-04-2024,30-04-2024,12:08,08:32,13:29,16:23,Medication Error,4,Urgent,Diabetes,Communication,Forgot,FALSE,16292,44
+646,Female,Neurology,18-03-2024,22-03-2024,16:14,12:25,12:53,13:19,Staff Behavior,3,Urgent,Hypertension,Staff Behavior,Forgot,FALSE,16379,46
+647,Male,General Medicine,11-10-2024,17-10-2024,10:28,13:32,15:57,16:12,Medication Error,4,Non-Urgent,Heart Disease,Communication,Health Condition,FALSE,9716,28
+648,Male,Pediatrics,26-02-2024,03-03-2024,16:49,15:34,17:44,18:09,Billing Issue,2,Urgent,Hypertension,Communication,None,TRUE,17507,18
+649,Other,Oncology,26-07-2024,29-07-2024,11:41,14:15,16:14,17:04,None,4,Urgent,Asthma,Facilities,Forgot,TRUE,12127,33
+650,Other,Dermatology,28-06-2024,07-07-2024,10:57,11:13,16:28,18:39,Medication Error,4,Emergency,Diabetes,Cleanliness,None,TRUE,7280,29
+651,Other,Pediatrics,30-03-2024,03-04-2024,16:10,16:06,16:17,16:38,Billing Issue,5,Emergency,Diabetes,Cleanliness,Transport Issues,FALSE,13132,28
+652,Female,Cardiology,03-06-2024,09-06-2024,17:40,16:54,17:07,18:52,Delay in Discharge,5,Non-Urgent,Hypertension,Wait Time,None,TRUE,10482,34
+653,Other,Orthopedics,29-07-2024,31-07-2024,17:10,11:03,17:17,17:36,Staff Behavior,2,Urgent,Diabetes,Cleanliness,Health Condition,TRUE,5838,26
+654,Female,Neurology,07-03-2024,12-03-2024,18:11,15:46,16:02,16:30,Staff Behavior,5,Urgent,None,Cleanliness,Forgot,TRUE,6594,46
+655,Male,Cardiology,03-10-2024,07-10-2024,10:14,14:22,14:46,16:28,None,3,Non-Urgent,Heart Disease,Staff Behavior,Forgot,FALSE,11972,32
+656,Other,Cardiology,29-10-2024,07-11-2024,17:23,11:16,17:46,17:58,None,3,Urgent,Heart Disease,Facilities,None,FALSE,11728,38
+657,Male,Dermatology,17-05-2024,19-05-2024,16:52,13:44,14:00,14:30,Staff Behavior,4,Urgent,Asthma,Communication,Health Condition,FALSE,7285,32
+658,Other,Oncology,24-10-2024,31-10-2024,15:18,11:21,15:21,16:01,Staff Behavior,4,Non-Urgent,Asthma,Wait Time,Forgot,TRUE,12055,31
+659,Female,Oncology,01-11-2024,07-11-2024,16:09,10:02,14:35,15:04,None,2,Emergency,Heart Disease,Staff Behavior,None,TRUE,8236,37
+660,Male,Cardiology,20-03-2024,22-03-2024,10:11,10:55,11:19,15:13,Billing Issue,5,Emergency,Diabetes,Facilities,Transport Issues,FALSE,11819,2
+661,Other,Cardiology,14-08-2024,18-08-2024,14:02,08:11,15:57,16:26,Delay in Discharge,1,Urgent,None,Wait Time,Health Condition,FALSE,7259,41
+662,Other,Dermatology,11-01-2024,18-01-2024,12:47,09:44,14:57,16:59,None,2,Non-Urgent,None,Wait Time,Forgot,TRUE,18927,7
+663,Other,Oncology,29-02-2024,06-03-2024,13:49,08:47,13:28,15:26,Staff Behavior,4,Emergency,Diabetes,Staff Behavior,None,TRUE,12467,22
+664,Other,Oncology,20-07-2024,23-07-2024,12:07,11:13,16:17,16:30,Delay in Discharge,5,Emergency,Hypertension,Staff Behavior,Transport Issues,FALSE,5239,14
+665,Other,Pediatrics,23-10-2024,30-10-2024,14:20,11:50,14:47,15:08,Delay in Discharge,5,Urgent,Diabetes,Staff Behavior,Forgot,TRUE,19647,16
+666,Female,Orthopedics,04-04-2024,11-04-2024,13:19,09:44,11:57,15:07,None,3,Emergency,Hypertension,Wait Time,Forgot,FALSE,16602,47
+667,Other,General Medicine,10-10-2024,20-10-2024,10:07,15:44,16:01,16:22,Delay in Discharge,1,Urgent,Diabetes,Communication,None,FALSE,10502,36
+668,Female,Pediatrics,12-07-2024,15-07-2024,16:18,08:18,11:26,13:25,Staff Behavior,4,Non-Urgent,None,Wait Time,Transport Issues,FALSE,7988,22
+669,Male,Orthopedics,05-04-2024,11-04-2024,17:29,11:24,11:39,12:19,Medication Error,4,Urgent,Heart Disease,Staff Behavior,Transport Issues,FALSE,11404,47
+670,Male,Oncology,01-07-2024,11-07-2024,16:14,08:48,17:10,17:29,Medication Error,5,Non-Urgent,Asthma,Cleanliness,None,FALSE,18409,41
+671,Male,Neurology,22-04-2024,25-04-2024,14:45,13:01,13:14,13:29,None,4,Non-Urgent,Hypertension,Staff Behavior,None,FALSE,12998,27
+672,Other,General Medicine,09-06-2024,19-06-2024,12:24,14:14,14:26,14:36,None,2,Emergency,None,Wait Time,Health Condition,TRUE,13690,6
+673,Female,General Medicine,01-01-2024,10-01-2024,16:22,13:39,13:50,16:38,Medication Error,2,Emergency,Diabetes,Cleanliness,None,FALSE,14418,13
+674,Female,Neurology,05-07-2024,13-07-2024,16:57,16:32,16:44,17:07,Delay in Discharge,2,Non-Urgent,Diabetes,Facilities,Forgot,TRUE,9957,34
+675,Female,Neurology,12-04-2024,22-04-2024,14:03,16:39,17:05,17:26,Delay in Discharge,3,Non-Urgent,Asthma,Staff Behavior,None,FALSE,9185,3
+676,Other,Pediatrics,21-04-2024,24-04-2024,17:11,13:15,13:34,13:49,None,2,Urgent,Diabetes,Communication,Forgot,TRUE,6693,8
+677,Male,Oncology,23-08-2024,25-08-2024,11:47,10:47,11:15,13:57,Medication Error,5,Non-Urgent,Heart Disease,Cleanliness,None,TRUE,12757,34
+678,Female,Pediatrics,05-10-2024,14-10-2024,12:46,14:26,14:47,18:14,Billing Issue,3,Non-Urgent,None,Cleanliness,None,FALSE,7792,30
+679,Other,Dermatology,27-01-2024,31-01-2024,18:06,16:22,16:38,16:56,None,4,Urgent,None,Facilities,Transport Issues,FALSE,19587,7
+680,Female,Oncology,29-06-2024,03-07-2024,18:39,10:47,11:08,12:51,Billing Issue,3,Emergency,None,Communication,Forgot,TRUE,5102,29
+681,Male,Orthopedics,19-03-2024,23-03-2024,18:11,14:06,16:01,18:14,Medication Error,5,Non-Urgent,Hypertension,Communication,Transport Issues,FALSE,12463,8
+682,Other,Cardiology,18-02-2024,28-02-2024,13:15,14:48,15:08,17:31,None,4,Emergency,Hypertension,Cleanliness,Health Condition,FALSE,10061,16
+683,Male,Dermatology,02-03-2024,06-03-2024,16:47,08:30,15:07,18:00,Billing Issue,4,Non-Urgent,Heart Disease,Communication,Forgot,TRUE,15913,20
+684,Male,Orthopedics,19-01-2024,28-01-2024,13:13,16:23,16:50,17:00,Staff Behavior,2,Urgent,Hypertension,Wait Time,Forgot,TRUE,17100,1
+685,Other,Orthopedics,24-07-2024,03-08-2024,12:19,12:52,13:13,15:29,Delay in Discharge,1,Emergency,Diabetes,Cleanliness,Health Condition,FALSE,14022,27
+686,Female,Dermatology,05-09-2024,12-09-2024,15:51,16:53,17:16,17:37,Delay in Discharge,2,Emergency,Heart Disease,Facilities,Health Condition,TRUE,8309,36
+687,Other,General Medicine,05-07-2024,07-07-2024,12:31,08:16,13:25,14:34,None,4,Urgent,Asthma,Facilities,Health Condition,TRUE,6912,19
+688,Male,General Medicine,18-05-2024,25-05-2024,15:15,10:58,12:42,13:07,Staff Behavior,3,Non-Urgent,Hypertension,Wait Time,None,TRUE,8998,22
+689,Female,Neurology,21-10-2024,30-10-2024,12:52,12:15,14:47,15:05,Delay in Discharge,5,Non-Urgent,None,Facilities,None,FALSE,16428,22
+690,Male,Oncology,11-09-2024,18-09-2024,13:01,15:32,15:52,16:34,Medication Error,4,Urgent,Diabetes,Staff Behavior,Health Condition,TRUE,6126,17
+691,Other,Cardiology,30-04-2024,02-05-2024,12:14,08:47,12:10,13:59,Medication Error,1,Non-Urgent,None,Facilities,None,TRUE,8359,14
+692,Other,Neurology,03-08-2024,08-08-2024,12:39,11:10,11:22,15:25,Billing Issue,4,Urgent,Asthma,Staff Behavior,None,FALSE,15373,8
+693,Female,Dermatology,03-09-2024,07-09-2024,15:44,14:38,15:03,15:13,Staff Behavior,3,Urgent,None,Wait Time,Transport Issues,FALSE,13670,5
+694,Other,Pediatrics,07-05-2024,16-05-2024,13:17,12:34,15:30,15:48,Staff Behavior,1,Urgent,Hypertension,Facilities,Transport Issues,TRUE,12010,30
+695,Other,Orthopedics,02-04-2024,11-04-2024,17:19,08:07,11:45,17:36,Staff Behavior,3,Urgent,Heart Disease,Staff Behavior,Transport Issues,TRUE,14922,37
+696,Female,Neurology,17-01-2024,19-01-2024,14:14,16:58,17:08,17:21,Medication Error,3,Emergency,Hypertension,Communication,None,FALSE,17502,23
+697,Other,Oncology,19-06-2024,25-06-2024,18:16,14:15,14:34,14:36,Staff Behavior,1,Non-Urgent,Heart Disease,Staff Behavior,Health Condition,FALSE,14849,40
+698,Female,Pediatrics,17-10-2024,21-10-2024,18:34,15:54,16:04,16:31,Medication Error,1,Non-Urgent,Asthma,Staff Behavior,None,FALSE,15511,36
+699,Male,General Medicine,09-02-2024,18-02-2024,18:06,12:00,13:12,17:01,Delay in Discharge,1,Urgent,Asthma,Communication,Health Condition,FALSE,9140,41
+700,Other,Neurology,31-10-2024,03-11-2024,17:30,16:06,16:29,16:42,Billing Issue,3,Emergency,None,Wait Time,Health Condition,TRUE,17535,12
+701,Other,General Medicine,21-07-2024,23-07-2024,14:12,15:48,16:12,17:23,Billing Issue,4,Emergency,Heart Disease,Facilities,None,FALSE,12719,40
+702,Female,Dermatology,19-05-2024,28-05-2024,15:46,11:55,16:26,16:55,None,3,Non-Urgent,Hypertension,Communication,None,TRUE,9604,23
+703,Female,Dermatology,25-07-2024,31-07-2024,13:46,08:54,09:16,11:23,Billing Issue,4,Urgent,Diabetes,Cleanliness,Health Condition,FALSE,5586,25
+704,Other,Cardiology,18-05-2024,20-05-2024,15:25,09:02,09:17,16:30,Billing Issue,3,Non-Urgent,Diabetes,Staff Behavior,Forgot,TRUE,19178,45
+705,Other,Cardiology,31-01-2024,03-02-2024,17:26,10:28,17:31,17:47,Medication Error,5,Non-Urgent,Heart Disease,Staff Behavior,Forgot,FALSE,12010,48
+706,Male,General Medicine,04-02-2024,08-02-2024,10:15,15:18,15:39,16:00,Billing Issue,5,Non-Urgent,None,Cleanliness,Health Condition,TRUE,12819,32
+707,Female,General Medicine,13-06-2024,19-06-2024,15:05,10:03,15:58,16:10,Billing Issue,1,Non-Urgent,Diabetes,Facilities,Transport Issues,FALSE,7152,44
+708,Female,Dermatology,01-04-2024,08-04-2024,14:46,10:46,16:15,16:34,None,5,Non-Urgent,Heart Disease,Facilities,None,TRUE,14037,16
+709,Male,Neurology,21-10-2024,31-10-2024,12:08,13:11,13:32,15:47,Medication Error,3,Non-Urgent,Hypertension,Cleanliness,Transport Issues,FALSE,8574,13
+710,Male,Oncology,27-09-2024,30-09-2024,17:12,16:14,17:06,17:19,Medication Error,2,Urgent,Heart Disease,Staff Behavior,None,TRUE,6310,27
+711,Other,General Medicine,02-07-2024,12-07-2024,10:43,11:32,12:11,13:17,Delay in Discharge,3,Non-Urgent,None,Wait Time,Health Condition,FALSE,18056,39
+712,Male,Dermatology,13-02-2024,15-02-2024,13:11,11:37,15:40,15:55,Billing Issue,1,Emergency,None,Wait Time,None,TRUE,9116,44
+713,Female,Oncology,07-02-2024,09-02-2024,14:47,13:06,13:18,17:45,None,5,Emergency,Diabetes,Facilities,Forgot,TRUE,13838,47
+714,Male,General Medicine,30-08-2024,03-09-2024,15:22,10:56,11:59,13:16,Medication Error,1,Emergency,None,Communication,Health Condition,TRUE,13448,39
+715,Male,General Medicine,14-08-2024,22-08-2024,12:56,11:51,12:19,12:55,Staff Behavior,2,Non-Urgent,Hypertension,Cleanliness,Transport Issues,FALSE,12547,38
+716,Female,Orthopedics,09-03-2024,13-03-2024,10:05,08:44,11:32,15:11,Staff Behavior,3,Emergency,None,Staff Behavior,None,FALSE,8328,9
+717,Female,Oncology,10-01-2024,20-01-2024,11:55,14:42,15:02,15:20,Staff Behavior,2,Urgent,Asthma,Wait Time,None,FALSE,7294,38
+718,Female,General Medicine,15-08-2024,20-08-2024,18:12,15:33,17:54,18:07,Staff Behavior,3,Emergency,None,Wait Time,Health Condition,FALSE,11865,30
+719,Female,Cardiology,29-07-2024,08-08-2024,16:29,14:45,15:33,17:55,Staff Behavior,2,Urgent,Diabetes,Communication,Transport Issues,TRUE,5722,47
+720,Female,General Medicine,28-04-2024,07-05-2024,15:04,11:14,17:08,17:28,Staff Behavior,2,Emergency,Hypertension,Communication,Transport Issues,FALSE,8810,9
+721,Other,Oncology,05-05-2024,07-05-2024,17:44,14:22,14:52,15:22,Medication Error,5,Emergency,Diabetes,Facilities,None,TRUE,7242,28
+722,Other,Pediatrics,15-06-2024,19-06-2024,16:29,14:25,14:37,15:04,Medication Error,2,Non-Urgent,None,Communication,Health Condition,FALSE,5885,44
+723,Other,Neurology,14-02-2024,19-02-2024,10:12,16:34,17:04,18:25,Medication Error,3,Non-Urgent,Heart Disease,Cleanliness,Forgot,TRUE,7991,46
+724,Other,Pediatrics,31-01-2024,09-02-2024,17:44,13:33,13:53,14:02,Staff Behavior,5,Non-Urgent,Diabetes,Facilities,Transport Issues,FALSE,19120,23
+725,Female,Dermatology,09-03-2024,19-03-2024,13:25,16:14,16:36,18:49,Billing Issue,3,Non-Urgent,Hypertension,Staff Behavior,None,TRUE,19186,12
+726,Male,Dermatology,06-05-2024,08-05-2024,10:07,08:03,11:30,16:56,Staff Behavior,3,Non-Urgent,Asthma,Facilities,Forgot,TRUE,11011,15
+727,Female,Neurology,12-06-2024,16-06-2024,15:51,15:56,16:47,17:17,Billing Issue,5,Urgent,Diabetes,Wait Time,Health Condition,FALSE,17299,20
+728,Male,Dermatology,23-02-2024,04-03-2024,15:07,10:37,15:41,16:11,None,4,Non-Urgent,Hypertension,Staff Behavior,Forgot,FALSE,15900,2
+729,Other,General Medicine,21-01-2024,25-01-2024,13:47,16:36,16:51,18:58,None,3,Non-Urgent,Asthma,Wait Time,Forgot,TRUE,16602,10
+730,Female,Pediatrics,17-09-2024,19-09-2024,13:15,14:34,16:00,16:55,None,5,Non-Urgent,Heart Disease,Cleanliness,None,TRUE,8930,32
+731,Other,Cardiology,04-05-2024,11-05-2024,15:31,11:48,11:59,16:36,Billing Issue,1,Urgent,Diabetes,Communication,Health Condition,FALSE,19173,21
+732,Other,Oncology,30-09-2024,06-10-2024,11:45,16:13,16:43,16:57,Delay in Discharge,5,Emergency,Heart Disease,Facilities,Forgot,TRUE,11825,1
+733,Female,Pediatrics,10-01-2024,16-01-2024,15:13,09:38,15:00,16:03,Billing Issue,1,Emergency,Heart Disease,Cleanliness,Transport Issues,FALSE,10005,47
+734,Female,General Medicine,28-04-2024,30-04-2024,11:39,10:39,16:35,16:58,Delay in Discharge,1,Emergency,None,Communication,Forgot,TRUE,13733,6
+735,Male,Dermatology,27-07-2024,01-08-2024,16:13,14:57,15:23,16:18,None,4,Urgent,None,Staff Behavior,None,FALSE,9648,14
+736,Male,Neurology,23-06-2024,01-07-2024,10:38,16:52,17:19,18:00,Billing Issue,5,Emergency,Diabetes,Staff Behavior,None,FALSE,14961,3
+737,Other,Orthopedics,18-01-2024,24-01-2024,16:00,14:12,15:50,18:40,None,2,Non-Urgent,Diabetes,Cleanliness,Health Condition,TRUE,12238,21
+738,Other,Pediatrics,28-06-2024,01-07-2024,17:17,14:01,14:25,18:30,Delay in Discharge,3,Non-Urgent,Diabetes,Cleanliness,None,TRUE,10384,35
+739,Male,Dermatology,09-06-2024,18-06-2024,13:05,13:41,14:10,14:27,None,3,Non-Urgent,Asthma,Facilities,Forgot,TRUE,19572,42
+740,Other,Dermatology,29-02-2024,06-03-2024,18:17,10:46,11:08,12:06,Staff Behavior,5,Urgent,Heart Disease,Staff Behavior,Transport Issues,TRUE,19263,9
+741,Other,Oncology,05-04-2024,07-04-2024,10:30,16:35,16:46,17:06,Delay in Discharge,3,Urgent,Heart Disease,Wait Time,Forgot,FALSE,10843,14
+742,Other,Oncology,24-04-2024,30-04-2024,13:16,12:57,13:35,14:02,Delay in Discharge,2,Urgent,Hypertension,Communication,None,TRUE,12326,17
+743,Female,Dermatology,02-02-2024,12-02-2024,17:47,11:59,12:22,16:29,Staff Behavior,3,Urgent,Diabetes,Wait Time,Forgot,TRUE,15095,9
+744,Male,Orthopedics,06-03-2024,15-03-2024,10:59,14:10,15:48,18:00,Delay in Discharge,2,Urgent,None,Facilities,Health Condition,TRUE,19815,36
+745,Male,Oncology,11-07-2024,14-07-2024,13:05,08:36,17:54,18:05,Staff Behavior,1,Emergency,None,Wait Time,Health Condition,TRUE,12394,41
+746,Female,Pediatrics,15-09-2024,18-09-2024,18:32,08:08,15:10,15:31,Staff Behavior,4,Emergency,Diabetes,Facilities,Health Condition,FALSE,15270,23
+747,Other,Pediatrics,18-05-2024,20-05-2024,16:09,16:13,16:53,17:22,Staff Behavior,4,Non-Urgent,Heart Disease,Cleanliness,None,FALSE,19315,29
+748,Other,Oncology,12-06-2024,18-06-2024,17:03,13:54,14:16,17:42,Staff Behavior,1,Non-Urgent,Diabetes,Staff Behavior,Forgot,TRUE,5847,43
+749,Female,Cardiology,20-05-2024,28-05-2024,11:46,11:48,16:16,16:33,Staff Behavior,5,Emergency,Hypertension,Wait Time,None,FALSE,17684,40
+750,Female,Oncology,05-08-2024,09-08-2024,10:50,15:14,15:28,15:54,Medication Error,4,Urgent,Hypertension,Facilities,None,TRUE,16521,38
+751,Other,Neurology,06-01-2024,13-01-2024,10:38,09:43,15:34,15:58,Medication Error,1,Non-Urgent,Hypertension,Facilities,None,FALSE,19801,10
+752,Female,Orthopedics,30-07-2024,07-08-2024,17:17,15:14,15:30,15:47,Delay in Discharge,4,Emergency,Hypertension,Staff Behavior,Transport Issues,FALSE,5250,31
+753,Male,General Medicine,28-07-2024,01-08-2024,12:14,09:15,17:13,17:39,None,5,Non-Urgent,Asthma,Communication,None,FALSE,9282,33
+754,Male,Cardiology,01-03-2024,04-03-2024,17:02,16:31,16:41,17:36,Delay in Discharge,1,Emergency,Hypertension,Communication,None,TRUE,5976,30
+755,Female,Dermatology,10-09-2024,19-09-2024,11:55,10:04,10:17,18:37,None,4,Non-Urgent,Hypertension,Communication,Health Condition,FALSE,9515,45
+756,Female,Dermatology,03-02-2024,07-02-2024,15:55,16:43,16:55,17:24,Medication Error,2,Urgent,Hypertension,Cleanliness,None,TRUE,9438,39
+757,Female,Orthopedics,24-01-2024,01-02-2024,18:03,12:57,17:55,18:12,None,3,Non-Urgent,Hypertension,Wait Time,Transport Issues,TRUE,11961,21
+758,Female,Oncology,03-05-2024,09-05-2024,14:47,09:31,13:07,14:57,Delay in Discharge,2,Emergency,Hypertension,Facilities,Transport Issues,FALSE,18031,2
+759,Other,Neurology,28-07-2024,06-08-2024,11:39,10:35,14:03,18:34,Staff Behavior,3,Urgent,Diabetes,Facilities,Transport Issues,FALSE,13735,30
+760,Other,Pediatrics,09-04-2024,11-04-2024,13:53,09:18,09:33,18:02,Delay in Discharge,4,Urgent,Diabetes,Wait Time,Health Condition,FALSE,10893,41
+761,Female,Dermatology,12-06-2024,22-06-2024,16:06,11:29,11:46,17:21,None,2,Urgent,Hypertension,Wait Time,Forgot,TRUE,18494,24
+762,Other,Orthopedics,27-05-2024,04-06-2024,14:18,11:53,14:16,14:52,Delay in Discharge,5,Emergency,Heart Disease,Facilities,Transport Issues,FALSE,18854,5
+763,Female,Oncology,29-05-2024,01-06-2024,12:01,11:44,16:47,17:49,Delay in Discharge,5,Emergency,Hypertension,Facilities,Forgot,TRUE,13791,37
+764,Male,Orthopedics,21-08-2024,23-08-2024,18:19,12:41,13:15,13:43,Staff Behavior,4,Non-Urgent,Diabetes,Wait Time,Health Condition,FALSE,13400,31
+765,Other,General Medicine,26-03-2024,29-03-2024,17:40,15:14,15:28,15:45,None,1,Emergency,Heart Disease,Communication,Transport Issues,FALSE,9760,4
+766,Other,Pediatrics,31-05-2024,04-06-2024,13:47,08:06,10:49,16:58,Billing Issue,1,Emergency,Asthma,Facilities,Transport Issues,FALSE,11906,14
+767,Female,Oncology,10-05-2024,18-05-2024,17:43,13:16,13:46,13:55,Billing Issue,2,Emergency,Asthma,Communication,None,FALSE,15031,8
+768,Male,Neurology,24-07-2024,27-07-2024,18:38,08:00,11:48,15:49,Billing Issue,5,Emergency,Asthma,Cleanliness,Forgot,TRUE,18348,26
+769,Female,Pediatrics,20-06-2024,28-06-2024,10:29,11:27,16:12,16:28,Delay in Discharge,4,Urgent,Heart Disease,Communication,Health Condition,FALSE,17963,31
+770,Male,Dermatology,03-04-2024,11-04-2024,18:14,11:45,11:58,16:33,Staff Behavior,4,Non-Urgent,Diabetes,Wait Time,Transport Issues,FALSE,12687,5
+771,Female,Pediatrics,18-07-2024,24-07-2024,12:32,12:29,14:05,17:37,Billing Issue,4,Emergency,Diabetes,Facilities,Transport Issues,FALSE,19224,19
+772,Male,Cardiology,31-08-2024,06-09-2024,12:51,12:00,12:23,16:19,Medication Error,1,Emergency,Hypertension,Facilities,Forgot,TRUE,7333,18
+773,Female,Oncology,17-09-2024,26-09-2024,11:47,10:51,15:44,16:11,Billing Issue,1,Urgent,Asthma,Wait Time,None,TRUE,10304,31
+774,Female,Neurology,16-08-2024,25-08-2024,17:39,16:23,16:53,17:06,Medication Error,4,Urgent,None,Facilities,Transport Issues,FALSE,5233,28
+775,Other,Dermatology,26-08-2024,29-08-2024,11:44,14:26,14:38,17:19,Staff Behavior,1,Emergency,Asthma,Cleanliness,Forgot,TRUE,18570,20
+776,Female,Dermatology,25-03-2024,27-03-2024,13:10,12:52,13:06,18:59,Staff Behavior,4,Non-Urgent,Asthma,Cleanliness,Health Condition,TRUE,19162,12
+777,Male,Dermatology,18-10-2024,22-10-2024,16:38,13:38,13:58,14:11,Medication Error,4,Emergency,None,Wait Time,Transport Issues,TRUE,10125,22
+778,Other,Cardiology,09-06-2024,14-06-2024,17:50,13:46,14:13,15:41,Staff Behavior,4,Non-Urgent,Heart Disease,Wait Time,Transport Issues,TRUE,14433,21
+779,Male,Neurology,18-09-2024,25-09-2024,17:52,13:42,14:58,17:46,None,3,Non-Urgent,Hypertension,Cleanliness,Health Condition,TRUE,12439,12
+780,Female,Dermatology,26-05-2024,05-06-2024,13:11,10:09,14:47,15:11,None,1,Non-Urgent,Hypertension,Communication,Forgot,FALSE,9601,22
+781,Other,Orthopedics,10-09-2024,16-09-2024,15:44,13:49,14:00,14:27,Delay in Discharge,1,Urgent,Hypertension,Communication,Health Condition,FALSE,10447,44
+782,Female,Orthopedics,11-08-2024,18-08-2024,13:24,13:02,15:30,15:43,Delay in Discharge,5,Emergency,Heart Disease,Staff Behavior,Transport Issues,TRUE,14929,11
+783,Other,Dermatology,24-09-2024,29-09-2024,12:24,11:44,12:07,16:24,Delay in Discharge,5,Emergency,Hypertension,Cleanliness,None,TRUE,16064,14
+784,Male,Cardiology,15-07-2024,25-07-2024,15:49,16:07,16:20,16:41,Staff Behavior,4,Urgent,Diabetes,Communication,Health Condition,FALSE,15429,6
+785,Female,Pediatrics,01-11-2024,09-11-2024,10:40,15:51,16:40,16:51,Medication Error,4,Emergency,Diabetes,Cleanliness,Forgot,TRUE,5831,34
+786,Other,General Medicine,24-03-2024,29-03-2024,10:25,16:56,17:10,17:25,None,2,Emergency,None,Wait Time,None,TRUE,7148,29
+787,Male,Dermatology,22-06-2024,29-06-2024,11:16,13:28,13:54,17:50,Billing Issue,5,Non-Urgent,Heart Disease,Communication,Forgot,FALSE,11995,46
+788,Female,Pediatrics,30-05-2024,05-06-2024,17:58,10:05,14:06,14:28,Delay in Discharge,1,Non-Urgent,Asthma,Staff Behavior,None,TRUE,9132,17
+789,Female,Cardiology,17-07-2024,24-07-2024,11:42,10:58,12:41,18:06,Billing Issue,3,Emergency,None,Staff Behavior,None,TRUE,6283,17
+790,Male,Dermatology,03-05-2024,11-05-2024,18:29,08:11,15:21,15:32,Billing Issue,5,Urgent,Asthma,Communication,Health Condition,TRUE,13957,40
+791,Male,Orthopedics,23-04-2024,29-04-2024,13:23,08:54,16:50,18:15,Billing Issue,4,Urgent,Asthma,Staff Behavior,None,FALSE,9899,40
+792,Male,Dermatology,24-01-2024,30-01-2024,12:04,15:26,15:50,17:49,Medication Error,2,Urgent,None,Cleanliness,Transport Issues,TRUE,18723,32
+793,Female,Oncology,13-03-2024,20-03-2024,13:16,13:31,17:21,17:34,Staff Behavior,1,Non-Urgent,Hypertension,Communication,Forgot,TRUE,16939,22
+794,Male,Orthopedics,27-07-2024,01-08-2024,17:11,15:52,16:12,16:26,Delay in Discharge,3,Urgent,Asthma,Communication,Transport Issues,FALSE,17888,8
+795,Other,Dermatology,10-01-2024,12-01-2024,13:39,11:33,16:03,18:15,Staff Behavior,4,Non-Urgent,Asthma,Staff Behavior,Health Condition,TRUE,16882,9
+796,Male,Pediatrics,15-06-2024,18-06-2024,11:00,11:31,14:32,17:13,None,4,Urgent,Hypertension,Facilities,Forgot,TRUE,5529,47
+797,Other,Oncology,25-06-2024,27-06-2024,13:36,12:09,12:31,18:25,None,5,Non-Urgent,Asthma,Staff Behavior,Health Condition,FALSE,18686,13
+798,Female,General Medicine,13-05-2024,21-05-2024,11:29,10:59,13:32,13:45,Staff Behavior,3,Emergency,None,Cleanliness,Transport Issues,TRUE,6925,36
+799,Female,Cardiology,29-10-2024,04-11-2024,13:58,12:13,16:40,17:00,Billing Issue,3,Emergency,Asthma,Facilities,Health Condition,TRUE,17476,47
+800,Female,General Medicine,30-10-2024,02-11-2024,12:56,16:42,17:09,17:29,Billing Issue,1,Urgent,Diabetes,Facilities,Transport Issues,FALSE,19755,29
+801,Male,Oncology,21-08-2024,26-08-2024,17:14,13:26,17:19,17:42,None,3,Urgent,Heart Disease,Communication,Transport Issues,TRUE,7930,30
+802,Female,Orthopedics,14-08-2024,24-08-2024,10:51,13:23,14:33,17:28,Billing Issue,2,Non-Urgent,None,Facilities,Transport Issues,TRUE,5457,32
+803,Male,Dermatology,28-07-2024,03-08-2024,14:22,11:10,14:14,16:17,Medication Error,2,Urgent,Asthma,Cleanliness,Forgot,TRUE,8472,13
+804,Male,General Medicine,08-09-2024,18-09-2024,18:13,12:06,12:34,12:46,Delay in Discharge,2,Emergency,None,Communication,None,TRUE,7109,19
+805,Male,Cardiology,04-07-2024,14-07-2024,18:20,16:19,16:37,16:48,Billing Issue,4,Urgent,Heart Disease,Facilities,Forgot,FALSE,15673,4
+806,Male,Orthopedics,15-02-2024,20-02-2024,15:31,15:32,15:56,16:16,Billing Issue,2,Emergency,Hypertension,Communication,Health Condition,TRUE,16460,5
+807,Male,Orthopedics,18-04-2024,28-04-2024,13:16,15:21,15:44,16:08,Billing Issue,2,Non-Urgent,Heart Disease,Cleanliness,Health Condition,FALSE,12285,26
+808,Other,Cardiology,07-05-2024,17-05-2024,10:27,16:21,16:48,17:14,Medication Error,3,Non-Urgent,Diabetes,Staff Behavior,Health Condition,TRUE,8466,17
+809,Other,Cardiology,05-09-2024,12-09-2024,14:11,14:13,15:52,16:57,Staff Behavior,5,Urgent,Heart Disease,Facilities,None,FALSE,6373,14
+810,Female,General Medicine,14-05-2024,17-05-2024,14:39,16:02,16:13,18:02,Staff Behavior,1,Urgent,Asthma,Communication,Transport Issues,FALSE,7835,35
+811,Male,Dermatology,26-04-2024,28-04-2024,18:51,11:30,16:02,16:19,Medication Error,1,Emergency,None,Cleanliness,Health Condition,TRUE,15185,43
+812,Other,Dermatology,21-03-2024,29-03-2024,16:32,16:44,17:10,17:39,Billing Issue,2,Non-Urgent,Diabetes,Wait Time,Forgot,FALSE,12166,37
+813,Female,Orthopedics,02-06-2024,10-06-2024,17:53,10:02,16:16,16:26,Billing Issue,4,Non-Urgent,None,Wait Time,Forgot,TRUE,13315,37
+814,Male,Neurology,08-03-2024,17-03-2024,14:18,09:49,16:07,16:26,Staff Behavior,4,Emergency,Asthma,Communication,Forgot,FALSE,16956,22
+815,Female,Pediatrics,25-10-2024,04-11-2024,15:35,11:34,11:52,12:16,Delay in Discharge,2,Emergency,Asthma,Cleanliness,None,TRUE,16901,21
+816,Female,Orthopedics,07-01-2024,09-01-2024,10:33,10:10,10:39,15:10,Billing Issue,1,Emergency,Heart Disease,Staff Behavior,Transport Issues,TRUE,18330,6
+817,Female,General Medicine,19-04-2024,25-04-2024,17:32,15:16,15:42,16:08,Staff Behavior,2,Emergency,Asthma,Communication,Transport Issues,FALSE,7918,6
+818,Male,Dermatology,27-10-2024,05-11-2024,16:02,16:21,16:40,17:10,Staff Behavior,1,Non-Urgent,Hypertension,Wait Time,None,TRUE,7966,24
+819,Male,General Medicine,23-06-2024,26-06-2024,12:19,10:07,11:40,18:06,None,5,Urgent,Asthma,Wait Time,Transport Issues,TRUE,19833,43
+820,Female,Pediatrics,19-08-2024,21-08-2024,13:40,08:30,10:46,17:25,None,3,Emergency,None,Wait Time,Transport Issues,TRUE,16661,25
+821,Other,Neurology,13-03-2024,20-03-2024,12:34,13:47,13:59,14:14,Billing Issue,1,Urgent,Hypertension,Communication,Health Condition,FALSE,10656,41
+822,Male,Cardiology,31-10-2024,07-11-2024,18:37,08:30,14:10,17:54,Delay in Discharge,5,Emergency,Asthma,Cleanliness,Forgot,TRUE,15488,21
+823,Female,General Medicine,12-06-2024,17-06-2024,15:10,15:37,15:56,16:25,Medication Error,3,Non-Urgent,Heart Disease,Wait Time,Forgot,FALSE,16218,33
+824,Other,General Medicine,28-07-2024,04-08-2024,15:54,09:48,11:38,15:58,Billing Issue,4,Emergency,Heart Disease,Cleanliness,Transport Issues,FALSE,12308,18
+825,Other,Cardiology,19-04-2024,27-04-2024,11:12,11:29,15:53,17:50,Delay in Discharge,3,Emergency,Asthma,Cleanliness,Forgot,FALSE,5128,48
+826,Female,Oncology,11-05-2024,19-05-2024,18:49,09:10,16:25,16:40,Staff Behavior,1,Non-Urgent,Hypertension,Staff Behavior,Transport Issues,TRUE,18912,35
+827,Male,Orthopedics,04-01-2024,09-01-2024,11:43,16:18,16:44,17:03,Medication Error,2,Emergency,Diabetes,Wait Time,Health Condition,TRUE,6056,20
+828,Male,Dermatology,03-04-2024,05-04-2024,18:02,08:09,17:36,18:25,Delay in Discharge,5,Urgent,Asthma,Wait Time,Forgot,TRUE,11871,38
+829,Female,Pediatrics,07-02-2024,13-02-2024,18:28,13:04,13:48,16:16,Medication Error,1,Urgent,Asthma,Wait Time,Transport Issues,TRUE,19787,5
+830,Other,Oncology,19-04-2024,25-04-2024,11:07,14:33,17:51,18:01,Billing Issue,4,Non-Urgent,Hypertension,Communication,None,FALSE,12651,5
+831,Male,Orthopedics,21-04-2024,28-04-2024,10:38,15:42,16:06,16:22,None,5,Non-Urgent,Heart Disease,Staff Behavior,None,TRUE,17271,8
+832,Other,Pediatrics,13-09-2024,15-09-2024,11:59,15:42,15:56,17:43,Medication Error,4,Emergency,Heart Disease,Communication,None,FALSE,10487,14
+833,Male,General Medicine,08-03-2024,14-03-2024,15:55,13:41,17:51,18:06,Delay in Discharge,2,Emergency,Asthma,Wait Time,Forgot,FALSE,14631,19
+834,Other,Orthopedics,26-06-2024,29-06-2024,10:06,13:07,13:32,18:49,Medication Error,3,Urgent,Asthma,Communication,Health Condition,FALSE,9696,34
+835,Other,Pediatrics,24-08-2024,26-08-2024,12:39,08:26,09:11,16:27,None,1,Non-Urgent,None,Facilities,Health Condition,FALSE,16129,17
+836,Other,Neurology,19-10-2024,21-10-2024,13:14,10:26,13:58,14:22,None,5,Non-Urgent,Heart Disease,Cleanliness,Transport Issues,TRUE,14504,37
+837,Male,Oncology,27-07-2024,04-08-2024,15:52,08:17,16:58,17:12,Medication Error,1,Emergency,Heart Disease,Communication,None,FALSE,8619,8
+838,Female,Oncology,29-04-2024,07-05-2024,14:44,16:07,16:23,16:40,Medication Error,1,Emergency,Asthma,Cleanliness,None,FALSE,8129,8
+839,Other,Orthopedics,21-01-2024,25-01-2024,11:39,15:47,15:58,17:13,Billing Issue,1,Emergency,Heart Disease,Staff Behavior,Forgot,TRUE,11666,44
+840,Male,General Medicine,15-09-2024,23-09-2024,13:37,16:16,16:32,16:54,None,2,Urgent,Heart Disease,Wait Time,None,TRUE,14400,40
+841,Male,Neurology,18-01-2024,20-01-2024,16:46,15:42,15:59,16:25,None,5,Emergency,Diabetes,Communication,Forgot,TRUE,11662,10
+842,Other,General Medicine,08-10-2024,10-10-2024,11:01,13:48,16:35,16:54,Billing Issue,5,Urgent,Hypertension,Cleanliness,Transport Issues,TRUE,10640,14
+843,Male,Oncology,09-01-2024,18-01-2024,13:00,12:52,14:42,15:16,Medication Error,4,Urgent,Heart Disease,Wait Time,Health Condition,TRUE,9076,3
+844,Other,Dermatology,23-06-2024,03-07-2024,10:12,14:23,14:53,17:13,None,1,Urgent,Hypertension,Communication,Transport Issues,TRUE,19042,37
+845,Male,Cardiology,01-05-2024,04-05-2024,14:24,14:22,16:28,16:50,Medication Error,5,Urgent,Heart Disease,Staff Behavior,None,TRUE,15050,4
+846,Male,Pediatrics,08-02-2024,15-02-2024,16:11,10:20,10:51,16:15,Billing Issue,2,Non-Urgent,Heart Disease,Communication,Transport Issues,TRUE,18387,35
+847,Female,Cardiology,10-03-2024,12-03-2024,16:38,15:13,15:33,15:45,Staff Behavior,4,Urgent,Heart Disease,Staff Behavior,Transport Issues,FALSE,7253,38
+848,Female,General Medicine,07-10-2024,16-10-2024,16:18,11:23,12:13,12:30,None,2,Urgent,Hypertension,Facilities,Transport Issues,FALSE,14995,6
+849,Other,Dermatology,26-10-2024,05-11-2024,17:21,16:09,16:29,16:39,Medication Error,1,Non-Urgent,None,Wait Time,Health Condition,FALSE,15827,25
+850,Male,Dermatology,16-01-2024,26-01-2024,14:15,08:11,16:30,16:50,Staff Behavior,4,Emergency,Asthma,Facilities,None,FALSE,19122,9
+851,Other,Orthopedics,12-05-2024,14-05-2024,13:11,08:23,14:33,15:58,Medication Error,2,Emergency,Heart Disease,Communication,Health Condition,TRUE,15927,41
+852,Male,General Medicine,06-10-2024,15-10-2024,17:37,09:14,10:58,12:00,Delay in Discharge,4,Emergency,None,Facilities,None,FALSE,8331,17
+853,Female,Neurology,28-06-2024,03-07-2024,18:06,14:46,14:56,15:19,Delay in Discharge,3,Urgent,Hypertension,Communication,Forgot,FALSE,12443,33
+854,Male,Dermatology,12-02-2024,18-02-2024,13:55,09:38,11:21,17:18,Delay in Discharge,3,Emergency,None,Facilities,Health Condition,FALSE,7210,7
+855,Male,General Medicine,09-09-2024,16-09-2024,15:58,09:28,11:00,11:27,None,4,Non-Urgent,Asthma,Staff Behavior,Health Condition,FALSE,13049,37
+856,Female,Oncology,26-05-2024,05-06-2024,10:53,11:02,12:49,13:53,Delay in Discharge,3,Non-Urgent,Asthma,Wait Time,Transport Issues,TRUE,14685,4
+857,Female,Pediatrics,08-01-2024,11-01-2024,11:28,09:56,17:41,17:57,Staff Behavior,2,Non-Urgent,Diabetes,Staff Behavior,None,FALSE,16541,27
+858,Female,Dermatology,28-07-2024,03-08-2024,13:54,11:43,16:53,17:12,Staff Behavior,4,Urgent,None,Staff Behavior,Transport Issues,TRUE,8422,21
+859,Male,Oncology,05-01-2024,12-01-2024,13:12,09:10,14:46,15:00,Billing Issue,3,Non-Urgent,None,Staff Behavior,Forgot,FALSE,5425,33
+860,Female,Pediatrics,24-06-2024,30-06-2024,12:11,15:00,15:28,17:13,Medication Error,1,Emergency,Diabetes,Facilities,Transport Issues,FALSE,7172,43
+861,Male,Orthopedics,10-06-2024,19-06-2024,17:27,09:52,17:52,18:16,Delay in Discharge,2,Emergency,Diabetes,Cleanliness,Health Condition,FALSE,10509,11
+862,Other,Neurology,27-06-2024,30-06-2024,13:02,11:46,17:12,18:20,Billing Issue,4,Non-Urgent,Diabetes,Wait Time,Health Condition,FALSE,14931,47
+863,Other,Orthopedics,07-09-2024,13-09-2024,12:45,14:28,16:47,17:01,Staff Behavior,5,Non-Urgent,Hypertension,Staff Behavior,Transport Issues,TRUE,15925,48
+864,Other,General Medicine,14-09-2024,21-09-2024,12:52,15:33,15:56,18:41,None,1,Emergency,Diabetes,Cleanliness,None,FALSE,14073,48
+865,Male,Cardiology,17-05-2024,25-05-2024,13:55,11:38,16:40,17:03,None,2,Urgent,Hypertension,Facilities,Forgot,TRUE,11297,12
+866,Male,Neurology,30-10-2024,03-11-2024,17:10,12:28,14:37,18:35,Delay in Discharge,1,Emergency,Asthma,Communication,None,FALSE,18484,33
+867,Other,Cardiology,10-03-2024,14-03-2024,15:13,15:28,15:53,16:15,Delay in Discharge,5,Emergency,Diabetes,Staff Behavior,None,TRUE,18407,38
+868,Other,General Medicine,28-07-2024,01-08-2024,16:10,08:20,17:06,17:26,Billing Issue,4,Urgent,None,Cleanliness,Forgot,TRUE,16697,15
+869,Female,Pediatrics,11-03-2024,17-03-2024,10:57,12:37,12:58,15:45,Staff Behavior,3,Urgent,Heart Disease,Staff Behavior,None,TRUE,15907,22
+870,Other,Dermatology,01-05-2024,06-05-2024,15:39,09:21,13:31,14:56,Billing Issue,2,Emergency,Hypertension,Cleanliness,Forgot,FALSE,6246,25
