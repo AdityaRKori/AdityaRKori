@@ -11,7 +11,7 @@ Original file is located at
 
 from pymongo.mongo_client import MongoClient
 
-uri = "mongodb+srv://adityakori001:bsKQJZIjTCErRSlx@cluster0.xrt4y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "ur key"
 
 try:
   client = MongoClient(uri)
